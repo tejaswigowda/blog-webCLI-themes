@@ -1,0 +1,51 @@
+/* Paper — a theme for blog-webcli's own markup (blog-webcli-v1). MIT.
+   Settings → Customization still applies on top. */
+:root { color-scheme: light dark; --fg: #000; --muted: #4a4a4a; --bg: #fff; --rule: #000; --link: #0000ee; --code: #f1f1f1; --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; --heading-font: var(--font); --width: 42rem; --size: 1.05rem; }
+@media (prefers-color-scheme: dark) { :root { --fg: #fff; --muted: #c4c4c4; --bg: #000; --rule: #fff; --link: #8ab4ff; --code: #1a1a1a; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: var(--size)/1.6 var(--font); }
+.wrap { max-width: var(--width); margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+header.site { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; border-bottom: 3px solid var(--rule); padding-bottom: .6rem; margin-bottom: 2.5rem; }
+header.site a { color: var(--fg); text-decoration: none; }
+header.site a.brand { font-weight: 800; font-size: 1.2rem; display: inline-flex; align-items: center; gap: .5rem; }
+header.site nav a { margin-left: 1.2rem; font-size: .95rem; text-decoration: underline; }
+img.logo { height: 1.75rem; width: auto; }
+h1, h2, h3 { font-family: var(--heading-font); font-weight: 800; line-height: 1.15; }
+h1 { font-size: 2.3rem; margin: .1em 0 .3em; letter-spacing: -.02em; }
+h2 { font-size: 1.5rem; margin: 2em 0 .5em; }
+h3 { font-size: 1.15rem; margin: 1.6em 0 .4em; }
+a { color: var(--link); }
+img { max-width: 100%; height: auto; }
+.cover { margin: 0 0 1.5rem; }
+.meta { color: var(--muted); font-size: .88rem; margin: 0 0 1.5rem; text-transform: uppercase; letter-spacing: .06em; }
+.meta .tag { margin-left: .6rem; }
+blockquote { margin: 1.4em 0; padding: .1em 1.1em; border-left: 6px solid var(--rule); font-weight: 500; }
+pre { background: var(--code); padding: 1rem; overflow: auto; font-size: .85rem; line-height: 1.5; border: 1px solid var(--rule); }
+code { background: var(--code); padding: .1em .3em; font-size: .9em; }
+pre code { background: none; padding: 0; }
+hr { border: 0; border-top: 3px solid var(--rule); margin: 2rem 0; }
+table { border-collapse: collapse; width: 100%; margin: 1.5em 0; }
+th, td { border: 1px solid var(--rule); padding: .4em .6em; text-align: left; }
+th { background: var(--code); }
+figure.video { margin: 1.5rem 0; }
+figure.video iframe { width: 100%; aspect-ratio: 16/9; border: 1px solid var(--rule); background: var(--code); }
+figure.video figcaption { font-size: .85rem; color: var(--muted); margin-top: .4rem; }
+ul.posts { list-style: none; padding: 0; }
+ul.posts li { margin: 0; padding: 1.2rem 0; border-top: 1px solid var(--rule); }
+ul.posts li:last-child { border-bottom: 1px solid var(--rule); }
+ul.posts .meta { margin: 0 0 .2rem; font-size: .75rem; }
+ul.posts h2 { font-size: 1.35rem; margin: 0; }
+ul.posts h2 a { color: var(--fg); text-decoration: none; }
+ul.posts h2 a:hover { text-decoration: underline; }
+ul.posts p { color: var(--muted); margin: .3em 0 0; }
+footer.site { margin-top: 3rem; padding-top: 1rem; border-top: 3px solid var(--rule); color: var(--muted); font-size: .85rem; }
+.unresolved { color: var(--muted); }
+:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+@media (max-width: 600px) { .wrap { padding: 1rem; } h1 { font-size: 1.8rem; } }
+@media print {
+  :root { --fg: #000; --muted: #333; --bg: #fff; --rule: #000; --link: #000; --code: #fff; }
+  header.site nav, footer.site, figure.video iframe { display: none; }
+  .wrap { max-width: none; padding: 0; }
+  a { text-decoration: none; }
+  pre, blockquote, figure { break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Terminal",
+  "version": "1.0.0",
+  "licence": "MIT",
+  "description": "Monospace, dark by default, with a prompt-style masthead. Follows the system if it prefers light.",
+  "class_contract": "blog-webcli-v1",
+  "css": ["style.css"]
+}

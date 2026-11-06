@@ -1,0 +1,48 @@
+/* Essay — a theme for blog-webcli's own markup (blog-webcli-v1). MIT.
+   Colours, fonts and width are custom properties, so Settings → Customization still applies on top. */
+:root { color-scheme: light dark; --fg: #26231f; --muted: #75706a; --bg: #fffdf8; --rule: #e6e0d4; --link: #8a3b12; --code: #f4efe4; --font: Georgia, "Iowan Old Style", "Palatino Linotype", serif; --heading-font: var(--font); --width: 36rem; --size: 1.2rem; }
+@media (prefers-color-scheme: dark) { :root { --fg: #e9e3d6; --muted: #a39d90; --bg: #17140f; --rule: #332e25; --link: #e0a27a; --code: #221e17; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: var(--size)/1.75 var(--font); text-rendering: optimizeLegibility; hyphens: auto; }
+.wrap { max-width: var(--width); margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+header.site { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 3.5rem; font: .8rem/1.4 var(--font); letter-spacing: .12em; text-transform: uppercase; }
+header.site a { color: var(--muted); text-decoration: none; }
+header.site a.brand { color: var(--fg); font-weight: 700; display: inline-flex; align-items: center; gap: .5rem; }
+header.site nav a { margin-left: 1.25rem; }
+header.site a:hover { color: var(--link); }
+img.logo { height: 1.75rem; width: auto; }
+h1, h2, h3 { font-family: var(--heading-font); font-weight: 600; letter-spacing: -.01em; }
+h1 { font-size: 2.4rem; line-height: 1.15; margin: .1em 0 .25em; }
+h2 { font-size: 1.55rem; line-height: 1.3; margin: 2.2em 0 .5em; }
+h3 { font-size: 1.2rem; margin: 1.8em 0 .4em; font-style: italic; }
+p { margin: 0 0 1.2em; }
+a { color: var(--link); text-underline-offset: .18em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+img { max-width: 100%; height: auto; }
+.cover { margin: 0 0 2rem; }
+.cover img { width: 100%; border-radius: 2px; }
+.meta { color: var(--muted); font: italic .9rem/1.5 var(--font); margin: 0 0 2rem; }
+.meta .tag { margin-left: .6rem; font-style: normal; }
+blockquote { margin: 1.6em 0; padding: 0 0 0 1.25em; border-left: 2px solid var(--link); font-style: italic; color: var(--muted); }
+pre { background: var(--code); padding: 1rem 1.1rem; overflow: auto; border-radius: 3px; font: .82rem/1.55 ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+code { background: var(--code); padding: .08em .3em; border-radius: 3px; font: .86em ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+pre code { background: none; padding: 0; }
+hr { border: 0; text-align: center; margin: 2.5rem 0; }
+hr::before { content: "* * *"; letter-spacing: .6em; color: var(--muted); }
+ul, ol { padding-left: 1.4em; }
+li { margin: .25em 0; }
+table { border-collapse: collapse; width: 100%; margin: 1.5em 0; font-size: .92em; }
+th, td { border-bottom: 1px solid var(--rule); padding: .4em .6em; text-align: left; }
+figure.video { margin: 2rem 0; }
+figure.video iframe { width: 100%; aspect-ratio: 16/9; border: 0; background: var(--code); }
+figure.video figcaption { font: italic .85rem/1.5 var(--font); color: var(--muted); margin-top: .4rem; }
+ul.posts { list-style: none; padding: 0; }
+ul.posts li { margin: 0 0 2.6rem; }
+ul.posts .meta { margin: 0 0 .2rem; font-size: .85rem; }
+ul.posts h2 { font-size: 1.5rem; margin: 0 0 .2em; }
+ul.posts h2 a { color: var(--fg); text-decoration: none; }
+ul.posts h2 a:hover { color: var(--link); }
+ul.posts p { color: var(--muted); margin: .3em 0 0; }
+footer.site { margin-top: 4rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); color: var(--muted); font: .8rem/1.5 var(--font); letter-spacing: .04em; }
+.unresolved { color: var(--muted); }
+@media (max-width: 600px) { .wrap { padding: 1.5rem 1rem 3rem; } h1 { font-size: 1.9rem; } }
+@media print { header.site nav, footer.site { display: none; } body { background: #fff; color: #000; } a { color: inherit; } }

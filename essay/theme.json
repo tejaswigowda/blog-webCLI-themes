@@ -1,0 +1,8 @@
+{
+  "name": "Essay",
+  "version": "1.0.0",
+  "licence": "MIT",
+  "description": "Long-form reading: a serif face, a narrow measure and generous leading.",
+  "class_contract": "blog-webcli-v1",
+  "css": ["style.css"]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Cards",
+  "version": "1.0.0",
+  "licence": "MIT",
+  "description": "The post list as a grid of cards; a comfortable single column for reading a post.",
+  "class_contract": "blog-webcli-v1",
+  "css": ["style.css"]
+}
