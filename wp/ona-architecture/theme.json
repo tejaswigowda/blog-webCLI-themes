@@ -7,7 +7,8 @@
   "description": "Ona Architecture is a sleek and sophisticated WordPress theme designed specifically for architects, interior designers, design studios, construction firms, and creative professionals in the built environment. This meticulously crafted block-based theme offers a clean, minimalist aesthetic that beaut",
   "class_contract": "wordpress-classic",
   "css": [
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "tokens": {
     "colors": {

@@ -7,8 +7,10 @@
   "description": "Variations is a block theme and hopefully the last theme you will even have to install.  It comes with many different templates and block patterns to make creating a website easy.",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/editor-frontend.css",
     "assets/css/frontend.css",
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "tokens": {
     "fontFamilies": {
@@ -249,7 +251,6 @@
       "templates/websites-love-nature.html"
     ],
     "css": [
-      "assets/css/editor-frontend.css",
       "assets/css/editor.css",
       "assets/woocommerce/index.css"
     ],

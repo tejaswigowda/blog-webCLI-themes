@@ -7,26 +7,8 @@
   "description": "An innovative, easily customizable, multi-purpose theme, focused on empowering users to build astonishing WordPress websites. It is mainly designed for small businesses, startups, or personal portfolio websites and works perfectly with Kubio Page Builder which enriches the WordPress block editor wit",
   "class_contract": "wordpress-classic",
   "css": [
-    "resources/google-fonts/style.css",
-    "css/blocks.css",
-    "resources/react/black-wizard/style-index.css",
-    "resources/theme/fse-base-style.css",
-    "style.css"
-  ],
-  "assets": [
-    "resources/google-fonts/Fraunces-300normal-latin.woff2",
-    "resources/google-fonts/Fraunces-400italic-latin.woff2",
-    "resources/google-fonts/Fraunces-400normal-latin.woff2",
-    "resources/google-fonts/Fraunces-500normal-latin.woff2",
-    "resources/google-fonts/Fraunces-600normal-latin.woff2",
-    "resources/google-fonts/Fraunces-700italic-latin.woff2",
-    "resources/google-fonts/Fraunces-700normal-latin.woff2",
-    "resources/google-fonts/Manrope-300normal-latin.woff2",
-    "resources/google-fonts/Manrope-400normal-latin.woff2",
-    "resources/google-fonts/Manrope-500normal-latin.woff2",
-    "resources/google-fonts/Manrope-600normal-latin.woff2",
-    "resources/google-fonts/Manrope-700normal-latin.woff2",
-    "resources/google-fonts/Manrope-800normal-latin.woff2"
+    "style.css",
+    "wp-inline.css"
   ],
   "dropped": {
     "php": [
@@ -254,6 +236,7 @@
       "resources/theme/theme.js"
     ],
     "css": [
+      "css/blocks.css",
       "inc/siteleads-integration/assets/admin/css/admin-style.css",
       "inc/siteleads-integration/assets/admin/css/admin-style.min.css",
       "inc/siteleads-integration/assets/customizer-preview/css/customizer-preview-style.css",
@@ -268,7 +251,10 @@
       "resources/admin/admin.css",
       "resources/customizer/customizer.css",
       "resources/customizer/preview.css",
-      "resources/editor-style.css"
+      "resources/editor-style.css",
+      "resources/google-fonts/style.css",
+      "resources/react/black-wizard/style-index.css",
+      "resources/theme/fse-base-style.css"
     ],
     "other": [
       "inc/siteleads-integration/vendor/composer/LICENSE",
@@ -276,6 +262,19 @@
       "lib/kubio-starter-content/scripts/theme-json.base.json",
       "resources/fonts/vendor/element-icons.ttf",
       "resources/fonts/vendor/element-icons.woff",
+      "resources/google-fonts/Fraunces-300normal-latin.woff2",
+      "resources/google-fonts/Fraunces-400italic-latin.woff2",
+      "resources/google-fonts/Fraunces-400normal-latin.woff2",
+      "resources/google-fonts/Fraunces-500normal-latin.woff2",
+      "resources/google-fonts/Fraunces-600normal-latin.woff2",
+      "resources/google-fonts/Fraunces-700italic-latin.woff2",
+      "resources/google-fonts/Fraunces-700normal-latin.woff2",
+      "resources/google-fonts/Manrope-300normal-latin.woff2",
+      "resources/google-fonts/Manrope-400normal-latin.woff2",
+      "resources/google-fonts/Manrope-500normal-latin.woff2",
+      "resources/google-fonts/Manrope-600normal-latin.woff2",
+      "resources/google-fonts/Manrope-700normal-latin.woff2",
+      "resources/google-fonts/Manrope-800normal-latin.woff2",
       "resources/google-fonts/font-list.json",
       "resources/header-presets/images/14010286447_a1e0ec0174_hero.jpg",
       "resources/header-presets/images/17914308602_3eddd72aa9_hero.jpg",

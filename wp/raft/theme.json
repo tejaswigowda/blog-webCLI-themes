@@ -8,9 +8,8 @@
   "class_contract": "wordpress-classic",
   "css": [
     "assets/css/build/style.css",
-    "assets/css/build/welcome-notice.css",
-    "assets/css/build/design-pack-notice.css",
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "tokens": {
     "colors": {
@@ -204,10 +203,12 @@
     ],
     "css": [
       "assets/css/build/design-pack-notice-rtl.css",
+      "assets/css/build/design-pack-notice.css",
       "assets/css/build/editor-rtl.css",
       "assets/css/build/editor.css",
       "assets/css/build/style-rtl.css",
       "assets/css/build/welcome-notice-rtl.css",
+      "assets/css/build/welcome-notice.css",
       "vendor/codeinwp/themeisle-sdk/assets/js/build/about/about.css",
       "vendor/codeinwp/themeisle-sdk/assets/js/build/ai_connect/ai-connect.css",
       "vendor/codeinwp/themeisle-sdk/assets/js/build/float_widget/float.css",

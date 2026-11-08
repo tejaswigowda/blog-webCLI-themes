@@ -8,7 +8,9 @@
   "class_contract": "wordpress-classic",
   "css": [
     "assets/css/main.min.css",
-    "style.css"
+    "assets/lib/swiper/swiper.min.css",
+    "style.css",
+    "wp-inline.css"
   ],
   "tokens": {
     "fontSizes": {
@@ -549,7 +551,6 @@
       "assets/lib/select2/select2.css",
       "assets/lib/select2/select2.min.css",
       "assets/lib/swiper/swiper.css",
-      "assets/lib/swiper/swiper.min.css",
       "includes/admin/assets/css/admin-menu.css",
       "includes/admin/assets/css/editor-style.css",
       "includes/admin/assets/css/review-notice.css",

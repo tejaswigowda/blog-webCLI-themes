@@ -7,14 +7,9 @@
   "description": "ColorMag is a fast, flexible WordPress theme built for news portals, online magazines, personal blogs, and publishing sites. Trusted by 50,000+ publishers worldwide, it's the #1 news & magazine theme on WordPress.org. Whether you're launching a breaking news site, a lifestyle magazine, or a niche bl",
   "class_contract": "wordpress-classic",
   "css": [
+    "style.css",
     "assets/library/font-awesome/css/v4-shims.min.css",
-    "assets/css/owfont-regular.min.css",
-    "assets/css/starter-content.css",
-    "dark.css",
-    "assets/js/magnific-popup/magnific-popup.min.css",
-    "assets/build/meta.css",
-    "breadcrumb.css",
-    "style.css"
+    "wp-inline.css"
   ],
   "assets": [
     "assets/fonts/OpenSans-Bold.woff",
@@ -30,10 +25,7 @@
     "assets/fonts/OpenSans-SemiBold.woff",
     "assets/fonts/OpenSans-SemiBoldItalic.woff",
     "assets/fonts/OpenSans-VariableFont.woff",
-    "assets/fonts/owfont-regular.eot",
-    "assets/fonts/owfont-regular.svg",
-    "assets/fonts/owfont-regular.ttf",
-    "assets/fonts/owfont-regular.woff"
+    "assets/img/starter/header-bg.jpg"
   ],
   "tokens": {
     "fontFamilies": {
@@ -383,13 +375,19 @@
     ],
     "css": [
       "assets/build/dashboard-rtl.css",
-      "assets/build/dashboard.css (its images and fonts are over the size budget)",
+      "assets/build/dashboard.css",
       "assets/build/meta-rtl.css",
+      "assets/build/meta.css",
       "assets/css/jquery.bxslider.css",
-      "assets/css/jquery.bxslider.min.css (url(images/bx_loader.gif) names a file that theme.json does not list under \"assets\")",
+      "assets/css/jquery.bxslider.min.css",
       "assets/css/owfont-regular.css",
+      "assets/css/owfont-regular.min.css",
+      "assets/css/starter-content.css",
       "assets/js/magnific-popup/magnific-popup.css",
+      "assets/js/magnific-popup/magnific-popup.min.css",
       "assets/library/font-awesome/css/v4-shims.css",
+      "breadcrumb.css",
+      "dark.css",
       "inc/admin/css/admin.css",
       "inc/compatibility/elementor/assets/css/colormag-econs.css",
       "inc/compatibility/elementor/assets/css/colormag-econs.min.css",
@@ -433,7 +431,11 @@
       "assets/fonts/IBMPlexSerif-Regular.woff2",
       "assets/fonts/IBMPlexSerif-SemiBold.woff2",
       "assets/fonts/Inter-Regular.woff2",
+      "assets/fonts/owfont-regular.eot",
       "assets/fonts/owfont-regular.otf",
+      "assets/fonts/owfont-regular.svg",
+      "assets/fonts/owfont-regular.ttf",
+      "assets/fonts/owfont-regular.woff",
       "assets/img/alignment/align-center.svg",
       "assets/img/alignment/align-left.svg",
       "assets/img/alignment/align-right.svg",
@@ -493,7 +495,6 @@
       "assets/img/starter/fitness-img-3.jpg",
       "assets/img/starter/fitness-img-4.jpg",
       "assets/img/starter/follow.png",
-      "assets/img/starter/header-bg.jpg",
       "assets/img/starter/lifestyle-img-1.jpg",
       "assets/img/starter/lifestyle-img-2.jpg",
       "assets/img/starter/lifestyle-img-3.jpg",

@@ -7,11 +7,10 @@
   "description": "Rubik News is a is a clean, modern, user-friendly, fast-loading, customizable, flexible, functional and fully responsive WordPress News, Magazine, Newspaper, and blog Theme.",
   "class_contract": "wordpress-classic",
   "css": [
-    "assets/css/all.min.css",
+    "assets/css/all.css",
     "assets/css/blocks.css",
-    "assets/css/customize-controls.css",
-    "assets/css/theme-info.css",
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "assets": [
     "assets/webfonts/fa-brands-400.ttf",
@@ -76,9 +75,11 @@
       "assets/js/skip-link-focus-fix.js"
     ],
     "css": [
-      "assets/css/all.css",
+      "assets/css/all.min.css",
+      "assets/css/customize-controls.css",
       "assets/css/editor-blocks.css",
-      "assets/css/editor-style.css"
+      "assets/css/editor-style.css",
+      "assets/css/theme-info.css"
     ],
     "other": [
       "assets/fonts/ajax-loader.gif",

@@ -7,12 +7,13 @@
   "description": "Personal and Multi-Author Free WordPress Blog Theme. Perfect for personal, lifestyle, health & fitness, food, cooking, bakery, travel, beauty, fashion, wedding, photography, news, quotes blog, auto blog, small business website and any other kind of amazing blogs. Minimal, elegant & mobile friendly l",
   "class_contract": "wordpress-classic",
   "css": [
+    "style.css",
     "assets/css/fontawesome.min.css",
-    "assets/css/responsive.css",
+    "assets/css/fontello.css",
     "assets/css/slick.css",
     "assets/css/perfect-scrollbar.css",
-    "assets/css/fontello.css",
-    "style.css"
+    "assets/css/responsive.css",
+    "wp-inline.css"
   ],
   "assets": [
     "assets/fonts/fa-brands-400.ttf",
@@ -89,7 +90,8 @@
       "inc/activation/css/welcome-notice.css",
       "inc/customizer/css/customizer-ui.css",
       "inc/customizer/customizer-repeater/css/admin-style.css",
-      "rtl.css"
+      "rtl.css",
+      "inline ashe_dynamic_css (uses @-o-keyframes, which is not allowed)"
     ],
     "other": [
       "assets/fonts/fontello.eot.svg",

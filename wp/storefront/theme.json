@@ -8,9 +8,8 @@
   "class_contract": "wordpress-classic",
   "css": [
     "assets/css/base/gutenberg-blocks.css",
-    "assets/css/jetpack/widgets.css",
-    "assets/css/jetpack/infinite-scroll.css",
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "dropped": {
     "php": [
@@ -93,7 +92,9 @@
       "assets/css/base/icons-rtl.css",
       "assets/css/base/icons.css (its images and fonts are over the size budget)",
       "assets/css/jetpack/infinite-scroll-rtl.css",
+      "assets/css/jetpack/infinite-scroll.css",
       "assets/css/jetpack/widgets-rtl.css",
+      "assets/css/jetpack/widgets.css",
       "assets/css/woocommerce/extensions/advanced-product-labels-rtl.css",
       "assets/css/woocommerce/extensions/advanced-product-labels.css",
       "assets/css/woocommerce/extensions/ajax-layered-nav-rtl.css",

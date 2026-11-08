@@ -7,9 +7,9 @@
   "description": "Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a sp",
   "class_contract": "wordpress-classic",
   "css": [
-    "assets/css/style-dark-mode.css",
-    "assets/css/custom-color-overrides.css",
-    "style.css"
+    "style.css",
+    "assets/css/print.css",
+    "wp-inline.css"
   ],
   "dropped": {
     "php": [
@@ -77,10 +77,11 @@
       "postcss.config.js"
     ],
     "css": [
+      "assets/css/custom-color-overrides.css",
       "assets/css/ie-editor.css",
       "assets/css/ie.css",
-      "assets/css/print.css",
       "assets/css/style-dark-mode-rtl.css",
+      "assets/css/style-dark-mode.css",
       "assets/css/style-editor-customizer.css",
       "assets/css/style-editor.css",
       "style-rtl.css"

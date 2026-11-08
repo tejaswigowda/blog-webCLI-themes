@@ -7,7 +7,8 @@
   "description": "Blogsy News is a modern, high-performance WordPress theme designed for bloggers, news publishers, and content creators who demand style and flexibility. Effortlessly shape your site with built-in support for the powerful Gutenberg block editor, ready-made block patterns, and seamless Elementor integ",
   "class_contract": "wordpress-classic",
   "css": [
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "dropped": {
     "php": [

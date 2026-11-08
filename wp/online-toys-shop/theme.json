@@ -7,11 +7,12 @@
   "description": "Online Toys Shop Theme provides a structured storefront for displaying products, categories, offers, and essential shopping information. Toy Stores can organize products into clear categories and present product images, prices, descriptions, and other details through dedicated layouts. The responsiv",
   "class_contract": "wordpress-classic",
   "css": [
-    "assets/font-awesome/css/all.min.css",
-    "assets/css/animate.css",
-    "assets/css/responsive.css",
+    "style.css",
     "assets/css/blocks.css",
-    "style.css"
+    "assets/css/responsive.css",
+    "assets/css/animate.css",
+    "assets/font-awesome/css/all.css",
+    "wp-inline.css"
   ],
   "assets": [
     "assets/font-awesome/webfonts/fa-brands-400.woff2",
@@ -99,7 +100,7 @@
     "css": [
       "assets/css/customizer.css",
       "assets/css/owl.carousel.css (url(owl.video.play.png) names a file that theme.json does not list under \"assets\")",
-      "assets/font-awesome/css/all.css",
+      "assets/font-awesome/css/all.min.css",
       "inc/online-toys-shop-theme-info-page/css/theme-details.css",
       "style-rtl.css"
     ],

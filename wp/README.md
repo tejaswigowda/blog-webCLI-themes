@@ -8,8 +8,11 @@ Each folder is a theme from [wordpress.org/themes](https://wordpress.org/themes/
 Only what a static page can use is taken: `style.css` **and the theme's other front-end stylesheets** (many themes keep
 their real styling in `assets/css/`; right-to-left, editor, admin, customizer, plugin-specific and vendor files are left
 out, and so is any file that fails the app's CSS rules, each named with its reason under `dropped.css`), their images and
-fonts (within a size budget), and design tokens from a block theme's `theme.json`. A theme that sets its colours and
-layout from the Customizer in PHP still looks plain here: that is not CSS and is not converted.
+fonts (within a size budget), and design tokens from a block theme's `theme.json`. The stylesheets are the ones the theme
+really enqueues, in its order, and `wp-inline.css` holds the CSS its PHP generates (the Customizer's colours and fonts as
+custom properties, a block theme's global styles), both read from the theme's demo page on wordpress.org. What is still
+missing is the theme's own page structure: the generated pages use the `wordpress-classic` markup, so a theme built on
+other class names (Astra's `.ast-container`, say) gets its colours and type but not its layout.
 PHP templates, `functions.php` and scripts are **not converted**; each `theme.json` lists them under `dropped`,
 with the source, the licence, the attribution and the archive's sha256.
 

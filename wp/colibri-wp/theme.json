@@ -227,7 +227,8 @@
       "resources/admin/admin.css",
       "resources/customizer/customizer.css",
       "resources/customizer/preview.css",
-      "resources/theme/theme.css (over the size budget)"
+      "resources/theme/theme.css",
+      "inline global-styles (over the size budget)"
     ],
     "other": [
       "inc/composer.json",

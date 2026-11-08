@@ -7,12 +7,10 @@
   "description": "Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme a",
   "class_contract": "wordpress-classic",
   "css": [
-    "assets/css/colors-dark.css",
-    "assets/css/blocks.css",
-    "assets/css/ie8.css",
-    "assets/css/ie9.css",
     "assets/fonts/font-libre-franklin.css",
-    "style.css"
+    "style.css",
+    "assets/css/blocks.css",
+    "wp-inline.css"
   ],
   "assets": [
     "assets/fonts/libre-franklin/libre-franklin-all-300-italic.woff",
@@ -97,8 +95,11 @@
       "assets/js/skip-link-focus-fix.js"
     ],
     "css": [
+      "assets/css/colors-dark.css",
       "assets/css/editor-blocks.css",
       "assets/css/editor-style.css",
+      "assets/css/ie8.css",
+      "assets/css/ie9.css",
       "rtl.css"
     ],
     "other": [

@@ -7,7 +7,8 @@
   "description": "Purple is a WooCommerce starter theme made for the Site Editor and modern commerce. Its clean styles and adaptable color system suit any catalog: fashion and clothing, jewelry, beauty, home decor, food and drink, or digital downloads. Commerce-ready templates and curated patterns cover the storefron",
   "class_contract": "wordpress-classic",
   "css": [
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "tokens": {
     "colors": {

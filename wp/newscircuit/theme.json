@@ -7,7 +7,8 @@
   "description": "NewsCircuit is a powerful, feature-rich, and SEO-optimized WordPress theme designed for news, blogs, magazines, and online publishing platforms, offering a stunning responsive design, accessibile and blazing-fast performance. Packed with 50+ ready-to-import demos for Gutenberg, Elementor, and other ",
   "class_contract": "wordpress-classic",
   "css": [
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "dropped": {
     "php": [

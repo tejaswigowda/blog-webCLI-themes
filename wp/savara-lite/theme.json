@@ -7,21 +7,9 @@
   "description": "Savara Lite is a Luxury Resort Booking WordPress Block Theme designed for hospitality businesses that want to create an elegant and professional online presence. Built with full site editing and powered by Gutenverse, this theme provides a flexible and visually stunning platform to showcase resort a",
   "class_contract": "wordpress-classic",
   "css": [
-    "assets/css/theme-dashboard.css",
     "assets/css/savara-lite-custom-styling.css",
-    "assets/css/savara-lite-preset.css",
-    "assets/fonts/inter/inter.css",
-    "style.css"
-  ],
-  "assets": [
-    "assets/fonts/inter/inter-v18-latin-100.woff2",
-    "assets/fonts/inter/inter-v18-latin-200.woff2",
-    "assets/fonts/inter/inter-v18-latin-300.woff2",
-    "assets/fonts/inter/inter-v18-latin-500.woff2",
-    "assets/fonts/inter/inter-v18-latin-600.woff2",
-    "assets/fonts/inter/inter-v18-latin-700.woff2",
-    "assets/fonts/inter/inter-v18-latin-800.woff2",
-    "assets/fonts/inter/inter-v18-latin-regular.woff2"
+    "style.css",
+    "wp-inline.css"
   ],
   "tokens": {
     "colors": {
@@ -136,6 +124,11 @@
       "templates/search.html",
       "templates/single.html"
     ],
+    "css": [
+      "assets/css/savara-lite-preset.css",
+      "assets/css/theme-dashboard.css",
+      "assets/fonts/inter/inter.css"
+    ],
     "other": [
       "assets/fonts/albert-sans/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHdZT_qY32TxAj1g.woff2",
       "assets/fonts/albert-sans/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHmZP_qY32TxAj1g.woff2",
@@ -148,6 +141,14 @@
       "assets/fonts/baskervville/YA9Hr0yU4l_XOrogbkun3kQQtYOnhgMBaGprdyiojEe4dD9APkyagA.woff2",
       "assets/fonts/inter/LICENSE.txt",
       "assets/fonts/inter/README.txt",
+      "assets/fonts/inter/inter-v18-latin-100.woff2",
+      "assets/fonts/inter/inter-v18-latin-200.woff2",
+      "assets/fonts/inter/inter-v18-latin-300.woff2",
+      "assets/fonts/inter/inter-v18-latin-500.woff2",
+      "assets/fonts/inter/inter-v18-latin-600.woff2",
+      "assets/fonts/inter/inter-v18-latin-700.woff2",
+      "assets/fonts/inter/inter-v18-latin-800.woff2",
+      "assets/fonts/inter/inter-v18-latin-regular.woff2",
       "assets/img/adult-aromatic-attractive-beautiful-beauty-body.webp",
       "assets/img/aerial-view-luxury-beachfront-resort.webp",
       "assets/img/african-asian-blonde-brainstorm-business-businessman.webp",

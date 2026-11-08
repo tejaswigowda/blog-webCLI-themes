@@ -7,7 +7,8 @@
   "description": "BlogChrome is a customizable WordPress blog, news, and magazine theme built as a child theme of ChromeNews. Ideal for personal blogs, online newspapers, digital magazines, editorial websites, and news portals, it features a classic widgetized layout with custom news widgets and flexible widget areas",
   "class_contract": "wordpress-classic",
   "css": [
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "dropped": {
     "php": [

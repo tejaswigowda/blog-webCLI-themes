@@ -7,17 +7,10 @@
   "description": "Blocksy is a fast, modern WordPress theme with advanced WooCommerce support and full compatibility with the block editor.",
   "class_contract": "wordpress-classic",
   "css": [
-    "static/bundle/options.min.css",
-    "static/bundle/forminator.min.css",
-    "static/bundle/non-critical-styles.min.css",
+    "static/bundle/no-scripts.min.css",
     "static/bundle/entries.min.css",
-    "static/bundle/comments.min.css",
-    "static/bundle/flexy.min.css",
-    "static/bundle/cart-header-element-lazy.min.css",
-    "style.css"
-  ],
-  "assets": [
-    "static/images/sync.svg"
+    "style.css",
+    "wp-inline.css"
   ],
   "tokens": {
     "fontSizes": {
@@ -906,7 +899,9 @@
       "static/bundle/beaver.min.css",
       "static/bundle/brizy.min.css",
       "static/bundle/buddypress.min.css",
+      "static/bundle/cart-header-element-lazy.min.css",
       "static/bundle/cf-7.min.css",
+      "static/bundle/comments.min.css",
       "static/bundle/customizer-controls-rtl.min.css",
       "static/bundle/customizer-controls.min.css",
       "static/bundle/divi.min.css",
@@ -918,13 +913,16 @@
       "static/bundle/elementor-woocommerce-frontend.min.css",
       "static/bundle/eventkoi.min.css",
       "static/bundle/featured-image.min.css",
+      "static/bundle/flexy.min.css",
+      "static/bundle/forminator.min.css",
       "static/bundle/getwid.min.css",
       "static/bundle/jet-woo-builder.min.css",
       "static/bundle/main-rtl.min.css",
       "static/bundle/main.min.css (uses a scripting hook)",
-      "static/bundle/no-scripts.min.css",
       "static/bundle/non-critical-search-styles.min.css",
+      "static/bundle/non-critical-styles.min.css",
       "static/bundle/options-rtl.min.css",
+      "static/bundle/options.min.css",
       "static/bundle/page-scroll-to-id.min.css",
       "static/bundle/page-title.min.css",
       "static/bundle/pagination.min.css",
@@ -1099,6 +1097,7 @@
       "static/images/sticky-top.svg",
       "static/images/suggested-products-type-1.svg",
       "static/images/suggested-products-type-2.svg",
+      "static/images/sync.svg",
       "static/images/template.svg",
       "static/images/woo-filters-type-1.svg",
       "static/images/woo-filters-type-2.svg",
@@ -1442,8 +1441,7 @@
       "static/sass/frontend/8-integrations/jet-woo-builder.scss",
       "static/sass/frontend/8-integrations/page-scroll-to-id.scss",
       "static/sass/frontend/8-integrations/qubely.scss",
-      "static/sass/frontend/8-integrations/stackable.scss",
-      "… and 110 more"
+      "… and 111 more"
     ]
   },
   "upstream": {

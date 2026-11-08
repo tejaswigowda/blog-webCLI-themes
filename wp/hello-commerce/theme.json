@@ -8,7 +8,8 @@
   "class_contract": "wordpress-classic",
   "css": [
     "assets/css/header-footer.css",
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "dropped": {
     "php": [
@@ -124,7 +125,7 @@
       "assets/css/editor.css",
       "assets/css/header-footer-rtl.css",
       "assets/css/hello-commerce-woocommerce-rtl.css",
-      "assets/css/hello-commerce-woocommerce.css",
+      "assets/css/hello-commerce-woocommerce.css (has a url() that is not a plain quoted or unquoted address)",
       "assets/css/theme-rtl.css",
       "assets/css/theme.css (uses a script or data URL outside url())"
     ],

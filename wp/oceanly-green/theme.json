@@ -8,7 +8,8 @@
   "class_contract": "wordpress-classic",
   "css": [
     "style.min.css",
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "dropped": {
     "php": [

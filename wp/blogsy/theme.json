@@ -7,12 +7,12 @@
   "description": "Blogsy is a modern, high-performance WordPress theme designed for bloggers, news publishers, and content creators who demand style and flexibility. Effortlessly shape your site with built-in support for the powerful Gutenberg block editor, ready-made block patterns, and seamless Elementor integratio",
   "class_contract": "wordpress-classic",
   "css": [
-    "assets/css/aos.min.css",
-    "assets/css/patterns.min.css",
-    "assets/css/single-post.min.css",
     "assets/css/swiper.min.css",
+    "assets/css/patterns.min.css",
     "assets/css/dark-theme.min.css",
-    "style.css"
+    "assets/css/aos.min.css",
+    "style.css",
+    "wp-inline.css"
   ],
   "tokens": {
     "colors": {
@@ -245,11 +245,12 @@
       "admin/dashboard/assets/css/select2.css",
       "admin/dashboard/assets/css/select2.min.css",
       "assets/css/all.css",
-      "assets/css/all.min.css (url(https://raw.githubusercontent.com/peregrinethemes/fontawesom) points outside the theme; only the theme's o)",
+      "assets/css/all.min.css",
       "assets/css/aos.css",
       "assets/css/dark-theme.css",
       "assets/css/patterns.css",
       "assets/css/single-post.css",
+      "assets/css/single-post.min.css",
       "assets/css/style.css",
       "assets/css/style.min.css (uses a scripting hook)",
       "assets/css/swiper.css",

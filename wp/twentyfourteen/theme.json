@@ -7,10 +7,11 @@
   "description": "In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a cont",
   "class_contract": "wordpress-classic",
   "css": [
-    "css/blocks.css",
-    "genericons/genericons.css",
     "fonts/font-lato.css",
-    "style.css"
+    "genericons/genericons.css",
+    "style.css",
+    "css/blocks.css",
+    "wp-inline.css"
   ],
   "assets": [
     "fonts/lato/lato-all-300-italic.woff",

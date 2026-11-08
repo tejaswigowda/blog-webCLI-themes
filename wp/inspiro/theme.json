@@ -7,14 +7,9 @@
   "description": "Inspiro is a fast, ultra-lightweight, and versatile WordPress theme for small businesses, creative professionals, photographers, and visual portfolios. Launch your website in minutes with 20+ ready-made starter sites for both Elementor and the WordPress Block Editor (Gutenberg), each designed for a ",
   "class_contract": "wordpress-classic",
   "css": [
-    "assets/css/unminified/style.css",
     "assets/css/minified/style.min.css",
-    "assets/css/unminified/customize-controls.css",
-    "assets/css/minified/customize-controls.min.css",
-    "assets/css/unminified/colors-dark.css",
-    "assets/css/minified/colors-dark.min.css",
-    "assets/css/unminified/theme-deactivation.css",
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "tokens": {
     "colors": {
@@ -310,6 +305,8 @@
     "css": [
       "assets/css/minified/admin-rtl.min.css",
       "assets/css/minified/admin.min.css",
+      "assets/css/minified/colors-dark.min.css",
+      "assets/css/minified/customize-controls.min.css",
       "assets/css/minified/customize-guided-tour.min.css",
       "assets/css/minified/customize-rtl.min.css",
       "assets/css/minified/customize.min.css",
@@ -323,6 +320,8 @@
       "assets/css/minified/welcome-notice.min.css",
       "assets/css/unminified/admin-rtl.css",
       "assets/css/unminified/admin.css",
+      "assets/css/unminified/colors-dark.css",
+      "assets/css/unminified/customize-controls.css",
       "assets/css/unminified/customize-guided-tour.css",
       "assets/css/unminified/customize-rtl.css",
       "assets/css/unminified/customize.css",
@@ -330,8 +329,10 @@
       "assets/css/unminified/editor-style-rtl.css",
       "assets/css/unminified/editor-style.css",
       "assets/css/unminified/style-rtl.css",
+      "assets/css/unminified/style.css",
       "assets/css/unminified/survey-dashboard-rtl.css",
       "assets/css/unminified/theme-deactivation-rtl.css",
+      "assets/css/unminified/theme-deactivation.css",
       "assets/css/unminified/welcome-notice.css",
       "inc/customizer/custom-controls/alignment/alignment.css",
       "inc/customizer/custom-controls/alignment/alignment.min.css",

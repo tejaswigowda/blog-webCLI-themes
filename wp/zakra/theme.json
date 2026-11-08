@@ -7,13 +7,10 @@
   "description": "Zakra is a powerful and versatile multipurpose theme that makes it easy to create beautiful and professional websites. With over free 40 pre-designed starter demo sites to choose from, you can quickly build a unique and functional site that fits your specific needs. Whether you're launching a blog, ",
   "class_contract": "wordpress-classic",
   "css": [
-    "assets/build/dashboard.css",
-    "assets/build/meta.css",
-    "layouts/sidebar/centered.css",
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "assets": [
-    "assets/build/images/starter-templates-background.d0866b70.jpg",
     "assets/fonts/themegrill-icons.eot",
     "assets/fonts/themegrill-icons.woff",
     "assets/fonts/themegrill-icons.woff2"
@@ -353,7 +350,9 @@
     ],
     "css": [
       "assets/build/dashboard-rtl.css",
+      "assets/build/dashboard.css",
       "assets/build/meta-rtl.css",
+      "assets/build/meta.css",
       "assets/css/woocommerce.css",
       "assets/css/woocommerce.min.css",
       "assets/lib/font-awesome/css/all.css",
@@ -382,6 +381,7 @@
       "inc/customizer/customind/build/customind-rtl.css",
       "inc/customizer/customind/build/customind.css",
       "inc/meta-boxes/assets/css/meta-box.css",
+      "layouts/sidebar/centered.css",
       "style-editor-block.css",
       "style-rtl.css",
       "woocommerce.css"
@@ -392,6 +392,7 @@
       "assets/build/images/evf.5e0119d5.webp",
       "assets/build/images/facebook.73e84ecf.webp",
       "assets/build/images/masteriyo.edefcb9e.webp",
+      "assets/build/images/starter-templates-background.d0866b70.jpg",
       "assets/build/images/ur.a020ba77.webp",
       "assets/build/images/x.49f9520e.webp",
       "assets/build/images/youtube.bf7d11b1.webp",

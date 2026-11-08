@@ -8,9 +8,8 @@
   "class_contract": "wordpress-classic",
   "css": [
     "assets/css/build/style.css",
-    "assets/css/build/welcome-notice.css",
-    "assets/css/build/design-pack-notice.css",
-    "style.css"
+    "style.css",
+    "wp-inline.css"
   ],
   "tokens": {
     "fontFamilies": {
@@ -165,10 +164,12 @@
     ],
     "css": [
       "assets/css/build/design-pack-notice-rtl.css",
+      "assets/css/build/design-pack-notice.css",
       "assets/css/build/editor-rtl.css",
       "assets/css/build/editor.css",
       "assets/css/build/style-rtl.css",
       "assets/css/build/welcome-notice-rtl.css",
+      "assets/css/build/welcome-notice.css",
       "vendor/codeinwp/themeisle-sdk/assets/js/build/support_hub/support-hub.css"
     ],
     "other": [

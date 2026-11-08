@@ -7,9 +7,10 @@
   "description": "Prespa is a next-generation multi-purpose WordPress theme. It is perfect for a blog, portfolio website, digital agency, marketing, seo, consulting, sass application website, e-commerce shop as well as any type of corporate, finance and agency website. You will be surprised how many options this gene",
   "class_contract": "wordpress-classic",
   "css": [
-    "build/css/main.css",
     "assets/css/core-add.css",
-    "style.css"
+    "build/css/main.css",
+    "style.css",
+    "wp-inline.css"
   ],
   "tokens": {
     "colors": {
