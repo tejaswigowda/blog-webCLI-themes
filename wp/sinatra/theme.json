@@ -7,6 +7,7 @@
   "description": "Sinatra is a lightweight and highly customizable multi-purpose theme that makes it easy for anyone to create their perfect website. You can use it for any type of website from blogs, businesses, online shops, creatives, hotels, restaurants, startups and more. With Sinatra you get the perfect blend o",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/style.min.css",
     "style.css"
   ],
   "dropped": {
@@ -239,7 +240,6 @@
       "assets/css/editor-style.css",
       "assets/css/editor-style.min.css",
       "assets/css/style.css",
-      "assets/css/style.min.css",
       "assets/css/woocommerce.css",
       "assets/css/woocommerce.min.css",
       "inc/admin/assets/css/select2.css",

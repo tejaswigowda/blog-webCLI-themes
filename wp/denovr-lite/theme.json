@@ -7,7 +7,21 @@
   "description": "Denovr Lite is a Interior Remodeling WordPress Block Theme designed for businesses that want to build a modern and professional online presence. Built with full site editing and powered by Gutenverse, this theme provides a flexible and visually appealing platform to showcase remodeling projects, ren",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/theme-dashboard.css",
+    "assets/css/denovr-lite-custom-styling.css",
+    "assets/css/denovr-lite-css-presets.css",
+    "assets/fonts/inter/inter.css",
     "style.css"
+  ],
+  "assets": [
+    "assets/fonts/inter/inter-v18-latin-100.woff2",
+    "assets/fonts/inter/inter-v18-latin-200.woff2",
+    "assets/fonts/inter/inter-v18-latin-300.woff2",
+    "assets/fonts/inter/inter-v18-latin-500.woff2",
+    "assets/fonts/inter/inter-v18-latin-600.woff2",
+    "assets/fonts/inter/inter-v18-latin-700.woff2",
+    "assets/fonts/inter/inter-v18-latin-800.woff2",
+    "assets/fonts/inter/inter-v18-latin-regular.woff2"
   ],
   "tokens": {
     "colors": {
@@ -137,12 +151,6 @@
       "templates/search.html",
       "templates/single.html"
     ],
-    "css": [
-      "assets/css/denovr-lite-css-presets.css",
-      "assets/css/denovr-lite-custom-styling.css",
-      "assets/css/theme-dashboard.css",
-      "assets/fonts/inter/inter.css"
-    ],
     "other": [
       "assets/fonts/geist/gyBhhwUxId8gMGYQMKR3pzfaWI_RHOM4mJPby1QNtA.woff2",
       "assets/fonts/geist/gyBhhwUxId8gMGYQMKR3pzfaWI_RHOQ4mJPby1QNtA.woff2",
@@ -155,14 +163,6 @@
       "assets/fonts/geist/gyBhhwUxId8gMGYQMKR3pzfaWI_RwuM4mJPby1QNtA.woff2",
       "assets/fonts/inter/LICENSE.txt",
       "assets/fonts/inter/README.txt",
-      "assets/fonts/inter/inter-v18-latin-100.woff2",
-      "assets/fonts/inter/inter-v18-latin-200.woff2",
-      "assets/fonts/inter/inter-v18-latin-300.woff2",
-      "assets/fonts/inter/inter-v18-latin-500.woff2",
-      "assets/fonts/inter/inter-v18-latin-600.woff2",
-      "assets/fonts/inter/inter-v18-latin-700.woff2",
-      "assets/fonts/inter/inter-v18-latin-800.woff2",
-      "assets/fonts/inter/inter-v18-latin-regular.woff2",
       "assets/img/dark-denovr-logo-version.webp",
       "assets/img/denovr-lite-about-color-img.webp",
       "assets/img/denovr-lite-about-planning-img.webp",

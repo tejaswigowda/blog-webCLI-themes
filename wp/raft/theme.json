@@ -7,6 +7,9 @@
   "description": "Raft is a lightweight, full-site-editing compatible (FSE) theme ready for your next website. Raft is a super fast, easily customizable, simple theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and m",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/build/style.css",
+    "assets/css/build/welcome-notice.css",
+    "assets/css/build/design-pack-notice.css",
     "style.css"
   ],
   "tokens": {
@@ -201,13 +204,10 @@
     ],
     "css": [
       "assets/css/build/design-pack-notice-rtl.css",
-      "assets/css/build/design-pack-notice.css",
       "assets/css/build/editor-rtl.css",
       "assets/css/build/editor.css",
       "assets/css/build/style-rtl.css",
-      "assets/css/build/style.css",
       "assets/css/build/welcome-notice-rtl.css",
-      "assets/css/build/welcome-notice.css",
       "vendor/codeinwp/themeisle-sdk/assets/js/build/about/about.css",
       "vendor/codeinwp/themeisle-sdk/assets/js/build/ai_connect/ai-connect.css",
       "vendor/codeinwp/themeisle-sdk/assets/js/build/float_widget/float.css",

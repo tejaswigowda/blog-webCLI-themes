@@ -7,6 +7,7 @@
   "description": "Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for ",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/header-footer.css",
     "style.css"
   ],
   "dropped": {
@@ -88,11 +89,10 @@
       "assets/css/editor-styles.css",
       "assets/css/editor.css",
       "assets/css/header-footer-rtl.css",
-      "assets/css/header-footer.css",
       "assets/css/reset-rtl.css",
-      "assets/css/reset.css",
+      "assets/css/reset.css (uses a script or data URL outside url())",
       "assets/css/theme-rtl.css",
-      "assets/css/theme.css"
+      "assets/css/theme.css (uses @custom-media, which is not allowed)"
     ],
     "other": [
       "assets/images/BrandYoutube.svg",

@@ -7,6 +7,8 @@
   "description": "BlogHash is the perfect pick for bloggers seeking a lightweight, customizable theme that suits them just right. With plenty of options to adjust colors and typography, making your site unique is a breeze. It's SEO friendly and fully compatible with WPML, Gutenberg, Elementor, WooCommerce, and suppor",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/style.min.css",
+    "assets/css/swiper-bundle.min.css",
     "style.css"
   ],
   "dropped": {
@@ -248,7 +250,7 @@
     ],
     "css": [
       "assets/css/all.css",
-      "assets/css/all.min.css",
+      "assets/css/all.min.css (url(https://pro.fontawesome.com/releases/v5.15.4/webfonts/fa-bra) points outside the theme; only the theme's o)",
       "assets/css/compatibility/buddypress.css",
       "assets/css/compatibility/buddypress.min.css",
       "assets/css/compatibility/elementor-editor-style.css",
@@ -260,9 +262,7 @@
       "assets/css/editor-style.css",
       "assets/css/editor-style.min.css",
       "assets/css/style.css",
-      "assets/css/style.min.css",
       "assets/css/swiper-bundle.css",
-      "assets/css/swiper-bundle.min.css",
       "inc/admin/assets/css/bloghash-admin.css",
       "inc/admin/assets/css/bloghash-admin.min.css",
       "inc/admin/assets/css/bloghash-block-editor-styles-rtl.css",

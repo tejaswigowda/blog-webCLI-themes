@@ -7,6 +7,7 @@
   "description": "Hello Biz is a free, user-friendly Hybrid WordPress Theme that was crafted for seamless integration with the Elementor site builder and tailored specifically for business websites. Perfect for beginners, but far from limited to just them, it features a dedicated beginner-oriented “Home” screen to si",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/header-footer.css",
     "style.css"
   ],
   "dropped": {
@@ -110,9 +111,8 @@
       "assets/css/editor-styles.css",
       "assets/css/editor.css",
       "assets/css/header-footer-rtl.css",
-      "assets/css/header-footer.css",
       "assets/css/theme-rtl.css",
-      "assets/css/theme.css"
+      "assets/css/theme.css (uses a script or data URL outside url())"
     ],
     "other": [
       "assets/images/ai.png",

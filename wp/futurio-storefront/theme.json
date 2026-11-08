@@ -7,6 +7,7 @@
   "description": "Futurio Storefront is a lightweight, fast and customizable free multi-purpose and WooCommerce WordPress theme, suitable for business, portfolio, creative, and photography sites, eCommerce shops, landing pages, blogs or WooCommerce storefronts. Futurio Storefront works perfectly with all page builder",
   "class_contract": "wordpress-classic",
   "css": [
+    "css/bootstrap.min.css",
     "style.css"
   ],
   "dropped": {
@@ -52,12 +53,11 @@
     "css": [
       "css/admin/admin.css",
       "css/bootstrap.css",
-      "css/bootstrap.min.css",
       "css/editor-style.css",
       "css/font-awesome.css",
-      "css/font-awesome.min.css",
+      "css/font-awesome.min.css (url(../fonts/fontawesome-webfont.eot?v=4.7.0) names a file that theme.json does not list under \"assets\")",
       "css/hc-offcanvas-nav.css",
-      "css/hc-offcanvas-nav.min.css",
+      "css/hc-offcanvas-nav.min.css (uses a scripting hook)",
       "lib/customizer/customizer-notice/css/customizer-notice.css",
       "rtl.css"
     ],

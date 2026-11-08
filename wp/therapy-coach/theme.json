@@ -7,6 +7,7 @@
   "description": "Therapy Coach is a calm, modern WordPress block theme built for therapists, counselors, and life coaches. Powered by Full Site Editing and seamlessly integrated with the AllCoach plugin, it gives you everything needed to present your practice with warmth and clarity — showcase your programs and cred",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/welcome-notice.css",
     "style.css"
   ],
   "tokens": {
@@ -137,7 +138,6 @@
       "templates/single.html"
     ],
     "css": [
-      "assets/css/welcome-notice.css",
       "style-rtl.css"
     ],
     "other": [

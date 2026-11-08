@@ -7,7 +7,21 @@
   "description": "Rubik News is a is a clean, modern, user-friendly, fast-loading, customizable, flexible, functional and fully responsive WordPress News, Magazine, Newspaper, and blog Theme.",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/all.min.css",
+    "assets/css/blocks.css",
+    "assets/css/customize-controls.css",
+    "assets/css/theme-info.css",
     "style.css"
+  ],
+  "assets": [
+    "assets/webfonts/fa-brands-400.ttf",
+    "assets/webfonts/fa-brands-400.woff2",
+    "assets/webfonts/fa-regular-400.ttf",
+    "assets/webfonts/fa-regular-400.woff2",
+    "assets/webfonts/fa-solid-900.ttf",
+    "assets/webfonts/fa-solid-900.woff2",
+    "assets/webfonts/fa-v4compatibility.ttf",
+    "assets/webfonts/fa-v4compatibility.woff2"
   ],
   "dropped": {
     "php": [
@@ -63,12 +77,8 @@
     ],
     "css": [
       "assets/css/all.css",
-      "assets/css/all.min.css",
-      "assets/css/blocks.css",
-      "assets/css/customize-controls.css",
       "assets/css/editor-blocks.css",
-      "assets/css/editor-style.css",
-      "assets/css/theme-info.css"
+      "assets/css/editor-style.css"
     ],
     "other": [
       "assets/fonts/ajax-loader.gif",
@@ -77,15 +87,7 @@
       "assets/images/header-advertisement.jpg",
       "assets/images/left-quote.png",
       "assets/images/man-user.svg",
-      "assets/images/svg-icons.svg",
-      "assets/webfonts/fa-brands-400.ttf",
-      "assets/webfonts/fa-brands-400.woff2",
-      "assets/webfonts/fa-regular-400.ttf",
-      "assets/webfonts/fa-regular-400.woff2",
-      "assets/webfonts/fa-solid-900.ttf",
-      "assets/webfonts/fa-solid-900.woff2",
-      "assets/webfonts/fa-v4compatibility.ttf",
-      "assets/webfonts/fa-v4compatibility.woff2"
+      "assets/images/svg-icons.svg"
     ]
   },
   "upstream": {

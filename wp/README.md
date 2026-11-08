@@ -5,7 +5,11 @@ Each folder is a theme from [wordpress.org/themes](https://wordpress.org/themes/
 2026-11-07). Everything here is **GPL-2.0-or-later, GPL-3.0-or-later or GPL-3.0-only**, each folder with its own
 `LICENSE`, and `class_contract` `wordpress-classic`.
 
-Only what a static page can use is taken: `style.css`, and design tokens from a block theme's `theme.json`.
+Only what a static page can use is taken: `style.css` **and the theme's other front-end stylesheets** (many themes keep
+their real styling in `assets/css/`; right-to-left, editor, admin, customizer, plugin-specific and vendor files are left
+out, and so is any file that fails the app's CSS rules, each named with its reason under `dropped.css`), their images and
+fonts (within a size budget), and design tokens from a block theme's `theme.json`. A theme that sets its colours and
+layout from the Customizer in PHP still looks plain here: that is not CSS and is not converted.
 PHP templates, `functions.php` and scripts are **not converted**; each `theme.json` lists them under `dropped`,
 with the source, the licence, the attribution and the archive's sha256.
 

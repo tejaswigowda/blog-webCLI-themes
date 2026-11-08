@@ -7,7 +7,21 @@
   "description": "Webrand Lite is a Brand Agency and Creative Portfolio WordPress Block Theme designed for agencies and professionals who want to present their work with a modern and sophisticated online presence. Built to deliver a sleek dark-mode experience, this theme offers a stylish and professional platform to ",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/theme-dashboard.css",
+    "assets/css/webrand-lite-custom-styling.css",
+    "assets/css/webrand-lite-preset.css",
+    "assets/fonts/inter/inter.css",
     "style.css"
+  ],
+  "assets": [
+    "assets/fonts/inter/inter-v18-latin-100.woff2",
+    "assets/fonts/inter/inter-v18-latin-200.woff2",
+    "assets/fonts/inter/inter-v18-latin-300.woff2",
+    "assets/fonts/inter/inter-v18-latin-500.woff2",
+    "assets/fonts/inter/inter-v18-latin-600.woff2",
+    "assets/fonts/inter/inter-v18-latin-700.woff2",
+    "assets/fonts/inter/inter-v18-latin-800.woff2",
+    "assets/fonts/inter/inter-v18-latin-regular.woff2"
   ],
   "tokens": {
     "colors": {
@@ -126,23 +140,9 @@
       "templates/search.html",
       "templates/single.html"
     ],
-    "css": [
-      "assets/css/theme-dashboard.css",
-      "assets/css/webrand-lite-custom-styling.css",
-      "assets/css/webrand-lite-preset.css",
-      "assets/fonts/inter/inter.css"
-    ],
     "other": [
       "assets/fonts/inter/LICENSE.txt",
       "assets/fonts/inter/README.txt",
-      "assets/fonts/inter/inter-v18-latin-100.woff2",
-      "assets/fonts/inter/inter-v18-latin-200.woff2",
-      "assets/fonts/inter/inter-v18-latin-300.woff2",
-      "assets/fonts/inter/inter-v18-latin-500.woff2",
-      "assets/fonts/inter/inter-v18-latin-600.woff2",
-      "assets/fonts/inter/inter-v18-latin-700.woff2",
-      "assets/fonts/inter/inter-v18-latin-800.woff2",
-      "assets/fonts/inter/inter-v18-latin-regular.woff2",
       "assets/fonts/libre-baskerville/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcaxMaDc2V2ro.woff2",
       "assets/fonts/libre-baskerville/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTjY1I8Gcw6Oi.woff2",
       "assets/fonts/libre-baskerville/kmKnZrc3Hgbbcjq75U4uslyuy4kn0pNbYRI4CN2V.woff2",

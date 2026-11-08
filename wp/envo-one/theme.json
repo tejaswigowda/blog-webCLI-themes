@@ -7,6 +7,7 @@
   "description": "Envo One is a fast, clean, lightweight, customizable and modern-looking free responsive WooCommerce WordPress theme for e-commerce stores like clothing, fashion, electronics, ebooks, dress store, sports shop, marketplace, multivendor, equipments or online products. Theme works perfectly with the new",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/bootstrap.min.css",
     "style.css"
   ],
   "dropped": {
@@ -51,12 +52,11 @@
     "css": [
       "assets/css/admin/admin.css",
       "assets/css/bootstrap.css",
-      "assets/css/bootstrap.min.css",
       "assets/css/editor-style.css",
       "assets/css/hc-offcanvas-nav.css",
-      "assets/css/hc-offcanvas-nav.min.css",
+      "assets/css/hc-offcanvas-nav.min.css (uses a scripting hook)",
       "assets/css/line-awesome.css",
-      "assets/css/line-awesome.min.css",
+      "assets/css/line-awesome.min.css (url(../fonts/la-brands-400.eot) names a file that theme.json does not list under \"assets\")",
       "assets/css/woocommerce.css",
       "lib/customizer/notice/css/customizer-notice.css",
       "rtl.css"

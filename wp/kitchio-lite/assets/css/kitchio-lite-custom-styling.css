@@ -1,0 +1,345 @@
+/* ==================================================== FONT START ==================================================== */
+@media only screen and (max-width: 425px) {
+    .wp-block-post-content .has-custom-1-font-size,
+    .wp-site-blocks .has-custom-1-font-size {
+        font-size: 48px !important;
+    }
+    
+    .wp-block-post-content .has-custom-2-font-size,
+    .wp-site-blocks .has-custom-2-font-size {
+        font-size: 32px !important;
+    }
+    
+    .wp-block-post-content .has-custom-9-font-size,
+    .wp-site-blocks .has-custom-9-font-size {
+        font-size: 40px !important;
+    }
+    
+    .wp-block-post-content .has-custom-10-font-size,
+    .wp-site-blocks .has-custom-10-font-size {
+        font-size: 80px !important;
+    }
+    
+    .wp-block-post-content .has-primary-font-size,
+    .wp-site-blocks .has-primary-font-size {
+        font-size: 48px !important;
+    }
+    
+    .wp-block-post-content .has-secondary-font-size,
+    .wp-site-blocks .has-secondary-font-size {
+        font-size: 32px !important;
+    }
+    
+    .wp-block-post-content .has-primary-alt-font-size,
+    .wp-site-blocks .has-primary-alt-font-size {
+        font-size: 40px !important;
+    }
+    
+    .wp-block-post-content .has-heading-404-font-size,
+    .wp-site-blocks .has-heading-404-font-size {
+        font-size: 80px !important;
+    }
+}
+
+/* ==================================================== FONT END ==================================================== */
+
+/* ==================================================== BUTTON START ==================================================== */
+.wp-element-button.has-gv-color-accent-background-color {
+    transition: all 0.3s ease;
+}
+
+.wp-element-button.has-gv-color-accent-background-color:hover {
+    background-color: rgba(89, 88, 70, 1) !important;
+}
+
+.wp-block-button__link.has-gv-color-accent-color {
+    transition: all 0.3s ease;
+}
+
+.wp-block-button__link.has-gv-color-accent-color:hover {
+    color: rgba(89, 88, 70, 1) !important;
+}
+
+/* ==================================================== BUTTON END ==================================================== */
+
+/* ==================================================== HEADER START ==================================================== */
+
+.kitchio-lite-header *,
+.kitchio-lite-header-2 * {
+    transition: all 0.3s ease;
+}
+
+.kitchio-lite-header .has-child.wp-block-navigation-submenu > .wp-block-navigation__submenu-container ,
+.kitchio-lite-header-2 .has-child.wp-block-navigation-submenu > .wp-block-navigation__submenu-container {
+    min-width: 200px;
+    overflow: visible;
+    width: auto;
+    transition: all .3s ease;
+}
+
+.kitchio-lite-header .wp-block-navigation__responsive-container.has-modal-open.is-menu-open .wp-block-navigation__responsive-close .wp-block-navigation__responsive-dialog .wp-block-navigation__responsive-container-content > .wp-block-navigation__container,
+.kitchio-lite-header-2 .wp-block-navigation__responsive-container.has-modal-open.is-menu-open .wp-block-navigation__responsive-close .wp-block-navigation__responsive-dialog .wp-block-navigation__responsive-container-content > .wp-block-navigation__container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.kitchio-lite-header .wp-block-navigation__responsive-container.has-modal-open.is-menu-open .has-child.wp-block-navigation-submenu > .wp-block-navigation__submenu-container,
+.kitchio-lite-header-2 .wp-block-navigation__responsive-container.has-modal-open.is-menu-open .has-child.wp-block-navigation-submenu > .wp-block-navigation__submenu-container {
+    border: solid;
+    border-width: 1px;
+    border-color: #D1CFCC;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    margin-left: 0px;
+}
+
+.kitchio-lite-header .wp-block-navigation__responsive-container.has-modal-open.is-menu-open .wp-block-navigation__responsive-container-close,
+.kitchio-lite-header .wp-block-navigation__responsive-container.has-modal-open.is-menu-open .wp-block-navigation__responsive-container-close {
+    padding: 20px;
+}
+
+.wp-block-template-part .kitchio-lite-header {
+    margin-bottom: -78px;
+    z-index: 2;
+}
+.wp-block-template-part .kitchio-lite-header .wp-block-navigation__submenu-container, .wp-block-template-part .kitchio-lite-header-2 .wp-block-navigation__submenu-container {
+    margin-top: 16px;
+    margin-left: -15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.kitchio-lite-header .wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item:hover > .wp-block-navigation-item__content,
+.kitchio-lite-header-2 .wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item:hover > .wp-block-navigation-item__content,
+.kitchio-lite-header .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container .wp-block-navigation-item:hover > .wp-block-navigation-item__content,
+.kitchio-lite-header-2 .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container .wp-block-navigation-item:hover > .wp-block-navigation-item__content
+{
+    color: #7C7A61 !important;
+}
+
+/* ==================================================== HEADER END ==================================================== */
+
+/* ==================================================== POST START ==================================================== */
+
+.wp-block-post-template.has-gv-color-text-primary-color .wp-block-post .wp-block-post-title > a {
+    transition: all 0.3s ease;}
+
+.wp-block-post-template.has-gv-color-text-primary-color .wp-block-post .wp-block-post-title:hover > a {
+    color: rgba(124, 122, 97, 1) !important;
+}
+
+.wp-block-post-template.has-gv-color-text-primary-color .wp-block-post .wp-block-read-more {
+    transition: all 0.3s ease;
+}
+
+.wp-block-post-template.has-gv-color-text-primary-color .wp-block-post .wp-block-read-more:hover {
+    color: rgba(89, 88, 70, 1) !important;
+}
+
+.kitchio-lite-post-recent .wp-block-query .wp-block-post-template .wp-block-post .wp-block-post-title a {
+    transition: all 0.3s ease;
+}
+
+.kitchio-lite-post-recent .wp-block-query .wp-block-post-template .wp-block-post .wp-block-post-title:hover a {
+    color: #7C7A61 !important;
+}
+
+/* ==================================================== POST END ==================================================== */
+
+/* ==================================================== COMMENT START ==================================================== */
+
+.wp-block-comment-content {
+    margin: 1em 0 !important;
+}
+
+.wp-block-comment-content p {
+    line-height: normal;
+}
+
+.wp-block-comment-reply-link {
+    margin: 0 !important;
+}
+
+.wp-block-post-comments-form .comment-reply-title {
+    font-family: "Tenor Sans", san-serif;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    margin: 8px 0 10px;
+}
+
+.comment-form > p {
+    margin-bottom: 25px;
+}
+
+.comment-notes .required-field-message, .comment-notes #email-notes {
+    font-size: 16px !important;
+    color: #19110599 !important;
+}
+
+.comment-form p label {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 5px 0 2px;
+}
+
+.comment-form p label .required {
+    color: rgb(237, 28, 28);
+}
+
+.comment-form textarea, .comment-form input {
+    margin-top: 8px;
+    border-color: #d1cfcd;
+}
+
+.comment-form textarea {
+    height: 214px;
+}
+
+.comment-form input {
+    height: 46px;
+}
+
+.comment-form-cookies-consent label {
+    display: flex;
+    align-items: center;
+}
+
+.form-submit.wp-block-button input#submit {
+    border-radius: 0;
+    font-family: 'Albert Sans';
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 26px 16px;
+    color: white;
+    background: #7c7a61;
+    transition: all 0.3s ease;
+    line-height: normal;
+    display: flex;
+    height: fit-content;
+}
+
+.form-submit.wp-block-button input#submit:hover {
+    background: #595846;
+}
+
+/* ==================================================== COMMENT END ==================================================== */
+
+/* ==================================================== FOOTER START ==================================================== */
+
+.kitchio-lite-footer a {
+    transition: all 0.3s ease;
+}
+
+.kitchio-lite-footer a:hover {
+    color: #FFFFFF;
+}
+
+.wp-block-template-part:has(.kitchio-lite-footer-container) {
+    margin-block-start: 0 !important;
+}
+
+/* ==================================================== FOOTER END ==================================================== */
+
+/* ==================================================== RESPONSIVE START ==================================================== */
+
+@media only screen and (max-width: 768px) {
+    .kitchio-lite-features > .wp-block-columns > .wp-block-column {
+        border-left-color: #d1cfcd !important;
+        border-left-width: 1px !important;
+        border-left-style: solid !important;
+    }
+    
+    .kitchio-lite-footer > .wp-block-columns > .wp-block-column {
+        border-left-color: #ffffff26 !important;
+        border-left-width: 1px !important;
+        border-left-style: solid !important;
+    }
+    
+    .wp-block-template-part .kitchio-lite-header-2 .wp-block-buttons {
+        display: none;
+    }
+    
+    .kitchio-lite-process .kitchio-lite-process-list .wp-block-image {
+        display: none;
+    }
+    
+    .kitchio-lite-header > .wp-block-group, .kitchio-lite-header-2 > .wp-block-group {
+        justify-content: space-between;
+    }
+    
+    .kitchio-lite-post-detail > .wp-block-group > .wp-block-group {
+        display: inline-flex;
+        width: 100%;
+    }
+    
+    .kitchio-lite-post-detail > .wp-block-group {
+        flex-direction: column;
+    }
+    
+    .kitchio-lite-post-bottom {
+        flex-direction: column;
+    }
+    
+    .kitchio-lite-post-bottom > .wp-block-group {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .kitchio-lite-header .has-child.wp-block-navigation-submenu > .wp-block-navigation__submenu-container,
+    .kitchio-lite-header-2 .has-child.wp-block-navigation-submenu > .wp-block-navigation__submenu-container {
+        min-width: 0;
+        margin-left: -120px;
+    }
+}
+
+/* Undo WP behavior between 600–767 */
+@media (min-width: 600px) and (max-width: 768px) {
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+        display: none;
+    }
+}
+
+/* Apply WP behavior again from 768px */
+@media (min-width: 769px) {
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+        background-color: inherit;
+        display: block;
+        position: relative;
+        width: 100%;
+        z-index: auto;
+    }
+}
+
+@media (min-width: 600px) {
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: none;
+    }
+}
+
+/* Re-enable the open (hamburger) button between 600–767 */
+@media (min-width: 600px) and (max-width: 768px) {
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: flex; /* or block, WP uses flex */
+    }
+}
+
+/* Hide the open button from 768px up */
+@media (min-width: 769px) {
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: none;
+    }
+}
+/* ==================================================== RESPONSIVE END ==================================================== */

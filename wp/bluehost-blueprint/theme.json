@@ -7,7 +7,17 @@
   "description": "Bluehost Blueprint is a block-based, multi-purpose, WordPress theme. Compose your pages to fit any design you like with the power of Full Site Editing (FSE) and the included wide range of Block Patterns. The pre-built pages will help you populate and transform your website into a wonderful website. ",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/block-styles/core-group.min.css",
+    "assets/block-styles/core-image.min.css",
+    "assets/block-styles/core-comments.min.css",
+    "assets/back-compat/yith-wonder.min.css",
+    "assets/block-styles/core-post-author.min.css",
+    "assets/block-styles/core-cover.min.css",
+    "assets/block-styles/core-gallery.min.css",
     "style.css"
+  ],
+  "assets": [
+    "assets/images/wave-pattern.svg"
   ],
   "tokens": {
     "colors": {
@@ -112,7 +122,6 @@
     ],
     "css": [
       "assets/back-compat/yith-wonder.css",
-      "assets/back-compat/yith-wonder.min.css",
       "assets/block-styles/core-archives.css",
       "assets/block-styles/core-archives.min.css",
       "assets/block-styles/core-categories.css",
@@ -120,23 +129,17 @@
       "assets/block-styles/core-column.css",
       "assets/block-styles/core-column.min.css",
       "assets/block-styles/core-comments.css",
-      "assets/block-styles/core-comments.min.css",
       "assets/block-styles/core-cover-image.css",
       "assets/block-styles/core-cover-image.min.css",
       "assets/block-styles/core-cover.css",
-      "assets/block-styles/core-cover.min.css",
       "assets/block-styles/core-gallery.css",
-      "assets/block-styles/core-gallery.min.css",
       "assets/block-styles/core-group.css",
-      "assets/block-styles/core-group.min.css",
       "assets/block-styles/core-image.css",
-      "assets/block-styles/core-image.min.css",
       "assets/block-styles/core-list.css",
       "assets/block-styles/core-list.min.css",
       "assets/block-styles/core-navigation.css",
       "assets/block-styles/core-navigation.min.css",
       "assets/block-styles/core-post-author.css",
-      "assets/block-styles/core-post-author.min.css",
       "assets/block-styles/core-table.css",
       "assets/block-styles/core-table.min.css",
       "assets/block-styles/woocommerce-product-collection.css",
@@ -164,7 +167,6 @@
       "assets/images/8447530115_42bdfd9db6_k.webp",
       "assets/images/IRJKLKBWQD.webp",
       "assets/images/StockSnap_EXZZBXPUS6.webp",
-      "assets/images/wave-pattern.svg",
       "styles/blocks/001-overlap.json",
       "styles/blocks/002-text-balance.json",
       "styles/blocks/003-mobile-order-first.json",

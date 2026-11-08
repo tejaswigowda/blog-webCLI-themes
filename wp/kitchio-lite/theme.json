@@ -7,7 +7,21 @@
   "description": "Kitchio Lite is a Kitchen Cabinets and Furniture WordPress Block Theme designed for businesses that want a modern and professional website to showcase their craftsmanship. Built with the power of the block editor and Gutenverse, this theme provides a flexible and visually appealing foundation for cr",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/theme-dashboard.css",
+    "assets/css/kitchio-lite-custom-styling.css",
+    "assets/css/kitchio-lite-preset.css",
+    "assets/fonts/inter/inter.css",
     "style.css"
+  ],
+  "assets": [
+    "assets/fonts/inter/inter-v18-latin-100.woff2",
+    "assets/fonts/inter/inter-v18-latin-200.woff2",
+    "assets/fonts/inter/inter-v18-latin-300.woff2",
+    "assets/fonts/inter/inter-v18-latin-500.woff2",
+    "assets/fonts/inter/inter-v18-latin-600.woff2",
+    "assets/fonts/inter/inter-v18-latin-700.woff2",
+    "assets/fonts/inter/inter-v18-latin-800.woff2",
+    "assets/fonts/inter/inter-v18-latin-regular.woff2"
   ],
   "tokens": {
     "colors": {
@@ -117,12 +131,6 @@
       "templates/search.html",
       "templates/single.html"
     ],
-    "css": [
-      "assets/css/kitchio-lite-custom-styling.css",
-      "assets/css/kitchio-lite-preset.css",
-      "assets/css/theme-dashboard.css",
-      "assets/fonts/inter/inter.css"
-    ],
     "other": [
       "assets/fonts/albert-sans/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSH9ZP_qY32TxAj1g.woff2",
       "assets/fonts/albert-sans/i7dZIFdwYjGaAMFtZd_QA3xXSKZqhr-TenSHApT_qY32TxAj1g.woff2",
@@ -144,14 +152,6 @@
       "assets/fonts/albert-sans/i7dfIFdwYjGaAMFtZd_QA1Zeelmy79QJ1HOSY9Dw6If3bRUz1r5t.woff2",
       "assets/fonts/inter/LICENSE.txt",
       "assets/fonts/inter/README.txt",
-      "assets/fonts/inter/inter-v18-latin-100.woff2",
-      "assets/fonts/inter/inter-v18-latin-200.woff2",
-      "assets/fonts/inter/inter-v18-latin-300.woff2",
-      "assets/fonts/inter/inter-v18-latin-500.woff2",
-      "assets/fonts/inter/inter-v18-latin-600.woff2",
-      "assets/fonts/inter/inter-v18-latin-700.woff2",
-      "assets/fonts/inter/inter-v18-latin-800.woff2",
-      "assets/fonts/inter/inter-v18-latin-regular.woff2",
       "assets/fonts/tenor-sans/bx6ANxqUneKx06UkIXISr3dyC22IyqI.woff2",
       "assets/img/architecture-villa-floor-window-home.webp",
       "assets/img/architecture-wood-floor-home-cottage.webp",

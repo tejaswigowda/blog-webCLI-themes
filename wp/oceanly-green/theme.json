@@ -7,6 +7,7 @@
   "description": "Oceanly Green is a clean, fresh, and thoughtfully designed WordPress theme for blogging, news sites, educational platforms, and eco-focused businesses. Built with a nature-inspired color palette, dark green vibrant tones, balanced typography, and a strong content-first approach, it delivers a smooth",
   "class_contract": "wordpress-classic",
   "css": [
+    "style.min.css",
     "style.css"
   ],
   "dropped": {
@@ -31,8 +32,7 @@
     ],
     "css": [
       "style-rtl.css",
-      "style.min-rtl.css",
-      "style.min.css"
+      "style.min-rtl.css"
     ]
   },
   "upstream": {

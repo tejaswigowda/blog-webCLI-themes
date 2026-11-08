@@ -7,6 +7,7 @@
   "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to colo",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/button-outline.css",
     "style.css"
   ],
   "tokens": {
@@ -116,9 +117,6 @@
       "templates/search.html",
       "templates/single-with-sidebar.html",
       "templates/single.html"
-    ],
-    "css": [
-      "assets/css/button-outline.css"
     ],
     "other": [
       "assets/fonts/cardo/LICENSE.txt",

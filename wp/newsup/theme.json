@@ -7,7 +7,16 @@
   "description": "Newsup is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Newsup is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, news",
   "class_contract": "wordpress-classic",
   "css": [
+    "css/common.css",
+    "css/bootstrap.css",
+    "css/colors/default.css",
+    "css/font-awesome/css/v4-shims.min.css",
+    "css/jquery.smartmenus.bootstrap.css",
+    "css/owl.carousel.css",
     "style.css"
+  ],
+  "assets": [
+    "css/grabbing.png"
   ],
   "dropped": {
     "php": [
@@ -126,17 +135,11 @@
     "css": [
       "css/admin.css",
       "css/bootstrap-rtl.css",
-      "css/bootstrap.css",
-      "css/colors/default.css",
-      "css/common.css",
       "css/customizer-controls.css",
       "css/editor-style.css",
-      "css/font-awesome.css",
-      "css/font-awesome/css/all.min.css",
-      "css/font-awesome/css/v4-shims.min.css",
-      "css/jquery.smartmenus.bootstrap.css",
-      "css/newsup-performance.css",
-      "css/owl.carousel.css",
+      "css/font-awesome.css (url(../fonts/fontawesome-webfont.eot?v=4.7.0) names a file that theme.json does not list under \"assets\")",
+      "css/font-awesome/css/all.min.css (url(../webfonts/fa-brands-400.ttf) names a file that theme.json does not list under \"assets\")",
+      "css/newsup-performance.css (uses a scripting hook)",
       "css/woocommerce.css",
       "inc/ansar/custom-control/customizer-alpha-color-picker/css/alpha-color-picker.css",
       "inc/ansar/custom-control/toggle/toggle.css",
@@ -156,7 +159,6 @@
       "css/font-awesome/webfonts/fa-regular-400.woff2",
       "css/font-awesome/webfonts/fa-solid-900.woff2",
       "css/font-awesome/webfonts/fa-v4compatibility.woff2",
-      "css/grabbing.png",
       "images/dummy.jpg",
       "images/fullwidth-left-sidebar.png",
       "images/fullwidth.png",

@@ -7,7 +7,15 @@
   "description": "HybridMag is a modern and stylish WordPress theme for blogs, newspapers, and magazine websites. The advanced options provided with HybridMag allow you to tailor every aspect of your website to match your brand, making it the best choice for online publishers.",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/font-figtree.css",
+    "assets/css/swiper-bundle.min.css",
     "style.css"
+  ],
+  "assets": [
+    "assets/fonts/figtree/figtree-latin-ext-italics.woff2",
+    "assets/fonts/figtree/figtree-latin-ext.woff2",
+    "assets/fonts/figtree/figtree-latin-italics.woff2",
+    "assets/fonts/figtree/figtree-latin.woff2"
   ],
   "dropped": {
     "php": [
@@ -92,9 +100,7 @@
     "css": [
       "assets/css/block-editor-style.css",
       "assets/css/editor-style.css",
-      "assets/css/font-figtree.css",
       "assets/css/swiper-bundle.css",
-      "assets/css/swiper-bundle.min.css",
       "inc/customizer/assets/css/customizer.css",
       "inc/customizer/custom-controls/radio-image/radio-image.css",
       "inc/customizer/custom-controls/slider/slider.css",
@@ -105,10 +111,6 @@
       "woocommerce.css"
     ],
     "other": [
-      "assets/fonts/figtree/figtree-latin-ext-italics.woff2",
-      "assets/fonts/figtree/figtree-latin-ext.woff2",
-      "assets/fonts/figtree/figtree-latin-italics.woff2",
-      "assets/fonts/figtree/figtree-latin.woff2",
       "assets/images/default.jpg",
       "assets/images/sm-img.png",
       "inc/customizer/assets/images/1c.png",

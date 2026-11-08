@@ -7,6 +7,7 @@
   "description": "Unibiz is a Multipurpose Business WordPress Block Theme built for professionals and businesses that want to create a modern, high-performing website without writing a single line of code. Built with full site editing and powered by Gutenverse, this theme delivers a flexible and fully customizable pl",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/preset.css",
     "style.css"
   ],
   "tokens": {
@@ -133,9 +134,6 @@
       "templates/page.html",
       "templates/search.html",
       "templates/single.html"
-    ],
-    "css": [
-      "assets/css/preset.css"
     ],
     "other": [
       "assets/fonts/host-grotesk/HostGrotesk-Bold.ttf",

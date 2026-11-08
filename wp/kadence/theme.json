@@ -7,6 +7,13 @@
   "description": "Kadence Theme is a lightweight yet full featured WordPress theme for creating beautiful fast loading and accessible websites, easier than ever. It features an easy to use drag and drop header and footer builder to build any type of header in minutes. It features a full library of gorgeous starter te",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/content.min.css",
+    "assets/css/global.min.css",
+    "assets/css/header.min.css",
+    "assets/css/footer.min.css",
+    "assets/css/all.min.css",
+    "assets/css/global-fse.min.css",
+    "assets/css/tribe-events.min.css",
     "style.css"
   ],
   "dropped": {
@@ -534,11 +541,9 @@
       "inc/meta/react/src/radio-icon.js"
     ],
     "css": [
-      "assets/css/all.min.css",
       "assets/css/author-box.min.css",
       "assets/css/bbpress.min.css",
       "assets/css/comments.min.css",
-      "assets/css/content.min.css",
       "assets/css/editor/editor-styles.min.css",
       "assets/css/editor/learndash-editor-styles.min.css",
       "assets/css/editor/zoom-recipe-editor-styles.min.css",
@@ -546,11 +551,7 @@
       "assets/css/elementor-cart.min.css",
       "assets/css/elementor-checkout.min.css",
       "assets/css/elementor.min.css",
-      "assets/css/footer.min.css",
       "assets/css/givewp.min.css",
-      "assets/css/global-fse.min.css",
-      "assets/css/global.min.css",
-      "assets/css/header.min.css",
       "assets/css/heroic-knowledge-base.min.css",
       "assets/css/ie.min.css",
       "assets/css/kadence-splide.min.css",
@@ -567,7 +568,6 @@
       "assets/css/style-guide-controls.min.css",
       "assets/css/style-guide.min.css",
       "assets/css/surecart.min.css",
-      "assets/css/tribe-events.min.css",
       "assets/css/tutorlms.min.css",
       "assets/css/woocommerce-account.min.css",
       "assets/css/woocommerce.min.css",

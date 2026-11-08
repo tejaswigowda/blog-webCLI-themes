@@ -7,7 +7,21 @@
   "description": "Tourze Lite is a Travel Agency and Tour Booking WordPress Block Theme designed for businesses that want to create a modern and engaging travel website. Built with full site editing and powered by Gutenverse, this theme provides a flexible and visually appealing platform to showcase tour packages, de",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/theme-dashboard.css",
+    "assets/css/tourze-lite-custom-styling.css",
+    "assets/css/tourze-lite-preset.css",
+    "assets/fonts/inter/inter.css",
     "style.css"
+  ],
+  "assets": [
+    "assets/fonts/inter/inter-v18-latin-100.woff2",
+    "assets/fonts/inter/inter-v18-latin-200.woff2",
+    "assets/fonts/inter/inter-v18-latin-300.woff2",
+    "assets/fonts/inter/inter-v18-latin-500.woff2",
+    "assets/fonts/inter/inter-v18-latin-600.woff2",
+    "assets/fonts/inter/inter-v18-latin-700.woff2",
+    "assets/fonts/inter/inter-v18-latin-800.woff2",
+    "assets/fonts/inter/inter-v18-latin-regular.woff2"
   ],
   "tokens": {
     "colors": {
@@ -126,12 +140,6 @@
       "templates/search.html",
       "templates/single.html"
     ],
-    "css": [
-      "assets/css/theme-dashboard.css",
-      "assets/css/tourze-lite-custom-styling.css",
-      "assets/css/tourze-lite-preset.css",
-      "assets/fonts/inter/inter.css"
-    ],
     "other": [
       "assets/fonts/host-grotesk/HostGrotesk-Bold.ttf",
       "assets/fonts/host-grotesk/HostGrotesk-BoldItalic.ttf",
@@ -147,14 +155,6 @@
       "assets/fonts/host-grotesk/HostGrotesk-SemiBoldItalic.ttf",
       "assets/fonts/inter/LICENSE.txt",
       "assets/fonts/inter/README.txt",
-      "assets/fonts/inter/inter-v18-latin-100.woff2",
-      "assets/fonts/inter/inter-v18-latin-200.woff2",
-      "assets/fonts/inter/inter-v18-latin-300.woff2",
-      "assets/fonts/inter/inter-v18-latin-500.woff2",
-      "assets/fonts/inter/inter-v18-latin-600.woff2",
-      "assets/fonts/inter/inter-v18-latin-700.woff2",
-      "assets/fonts/inter/inter-v18-latin-800.woff2",
-      "assets/fonts/inter/inter-v18-latin-regular.woff2",
       "assets/fonts/poppins/pxiAyp8kv8JHgFVrJJLmE3tAOvODSVFF.woff2",
       "assets/fonts/poppins/pxiByp8kv8JHgFVrLBT5V15vFP-KUEg.woff2",
       "assets/fonts/poppins/pxiByp8kv8JHgFVrLCz7V15vFP-KUEg.woff2",

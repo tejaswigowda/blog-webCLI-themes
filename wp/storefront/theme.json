@@ -7,6 +7,9 @@
   "description": "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to person",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/base/gutenberg-blocks.css",
+    "assets/css/jetpack/widgets.css",
+    "assets/css/jetpack/infinite-scroll.css",
     "style.css"
   ],
   "dropped": {
@@ -85,15 +88,12 @@
       "assets/css/admin/welcome-screen/welcome-rtl.css",
       "assets/css/admin/welcome-screen/welcome.css",
       "assets/css/base/gutenberg-blocks-rtl.css",
-      "assets/css/base/gutenberg-blocks.css",
       "assets/css/base/gutenberg-editor-rtl.css",
       "assets/css/base/gutenberg-editor.css",
       "assets/css/base/icons-rtl.css",
-      "assets/css/base/icons.css",
+      "assets/css/base/icons.css (its images and fonts are over the size budget)",
       "assets/css/jetpack/infinite-scroll-rtl.css",
-      "assets/css/jetpack/infinite-scroll.css",
       "assets/css/jetpack/widgets-rtl.css",
-      "assets/css/jetpack/widgets.css",
       "assets/css/woocommerce/extensions/advanced-product-labels-rtl.css",
       "assets/css/woocommerce/extensions/advanced-product-labels.css",
       "assets/css/woocommerce/extensions/ajax-layered-nav-rtl.css",

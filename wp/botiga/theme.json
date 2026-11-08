@@ -7,6 +7,11 @@
   "description": "Botiga is a fast, lightweight WooCommerce theme for building modern online stores and eCommerce websites. It works with both Elementor and the WordPress block editor to assemble pages quickly. A clean, modern design with deep customization keeps your shop, product, cart, and checkout pages on brand.",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/quick-view.min.css",
+    "assets/css/metabox.min.css",
+    "assets/css/botiga-bhfb.min.css",
+    "assets/css/merchant.min.css",
+    "assets/css/accordion.min.css",
     "style.css"
   ],
   "tokens": {
@@ -533,7 +538,6 @@
     ],
     "css": [
       "assets/css/accordion.css",
-      "assets/css/accordion.min.css",
       "assets/css/admin/botiga-admin-modal.css",
       "assets/css/admin/botiga-admin-modal.min.css",
       "assets/css/admin/botiga-bhfb-customize-preview.css",
@@ -555,7 +559,6 @@
       "assets/css/admin/botiga-white-label.css",
       "assets/css/admin/botiga-white-label.min.css",
       "assets/css/botiga-bhfb.css",
-      "assets/css/botiga-bhfb.min.css",
       "assets/css/customizer-rtl.css",
       "assets/css/customizer-rtl.min.css",
       "assets/css/customizer.css",
@@ -567,13 +570,10 @@
       "assets/css/elementor.css",
       "assets/css/elementor.min.css",
       "assets/css/merchant.css",
-      "assets/css/merchant.min.css",
       "assets/css/metabox.css",
-      "assets/css/metabox.min.css",
       "assets/css/quick-view.css",
-      "assets/css/quick-view.min.css",
       "assets/css/styles.css",
-      "assets/css/styles.min.css",
+      "assets/css/styles.min.css (uses a scripting hook)",
       "assets/css/woocommerce.css",
       "assets/css/woocommerce.min.css",
       "assets/vendor/select2/select2.css",

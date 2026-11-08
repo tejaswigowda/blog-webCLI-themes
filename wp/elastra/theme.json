@@ -7,6 +7,11 @@
   "description": "Elastra is block based theme with full support for the WordPress Block Editor includng custom colors, typography and full customisation of page layouts. This multipurpose theme is ideal for building corporate, blog, business, creative, eCommerce, freelance and many more websites. It is easy to use, ",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/block-styles.css",
+    "assets/css/blocks-css/button.min.css",
+    "assets/css/blocks-css/quote.min.css",
+    "assets/css/blocks-css/latest-comments.min.css",
+    "assets/css/blocks-css/latest-posts.min.css",
     "style.css"
   ],
   "tokens": {
@@ -76,15 +81,10 @@
     ],
     "css": [
       "assets/admin/plugin-notice.css",
-      "assets/css/block-styles.css",
       "assets/css/blocks-css/button.css",
-      "assets/css/blocks-css/button.min.css",
       "assets/css/blocks-css/latest-comments.css",
-      "assets/css/blocks-css/latest-comments.min.css",
       "assets/css/blocks-css/latest-posts.css",
-      "assets/css/blocks-css/latest-posts.min.css",
-      "assets/css/blocks-css/quote.css",
-      "assets/css/blocks-css/quote.min.css"
+      "assets/css/blocks-css/quote.css"
     ],
     "other": [
       "assets/admin/envo-blocks-preview.webp",

@@ -7,6 +7,7 @@
   "description": "Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites.",
   "class_contract": "wordpress-classic",
   "css": [
+    "style.min.css",
     "style.css"
   ],
   "tokens": {
@@ -160,8 +161,7 @@
       "templates/single.html"
     ],
     "css": [
-      "assets/css/editor-style.css",
-      "style.min.css"
+      "assets/css/editor-style.css"
     ],
     "other": [
       "assets/fonts/beiruti/Beiruti-VariableFont_wght.woff2",

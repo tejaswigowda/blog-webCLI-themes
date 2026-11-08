@@ -7,6 +7,7 @@
   "description": "The Coffee Shop is an awesome free WordPress theme for coffee shops, restaurants and cafés - it also works great if you're a barista, food/coffee blogger or reviewer, but flexible enough for a company or business type who wants to create a full website or landing page. This colorful, clean, and mini",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/patterns.css",
     "style.css"
   ],
   "tokens": {
@@ -124,7 +125,6 @@
     ],
     "css": [
       "assets/css/editor.css",
-      "assets/css/patterns.css",
       "inc/superbthemes-info-content/template-information/information.css",
       "inc/superbthemes-info-content/theme-page/themepage.css"
     ],

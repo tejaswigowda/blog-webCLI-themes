@@ -7,6 +7,7 @@
   "description": "The 2010 theme for WordPress is stylish, customizable, simple, and readable -- make it yours with a custom menu, header image, and background. Twenty Ten supports six widgetized areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery posts and custom header images ",
   "class_contract": "wordpress-classic",
   "css": [
+    "blocks.css",
     "style.css"
   ],
   "assets": [
@@ -38,7 +39,6 @@
       "tag.php"
     ],
     "css": [
-      "blocks.css",
       "editor-blocks.css",
       "editor-style-rtl.css",
       "editor-style.css",

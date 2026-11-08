@@ -7,6 +7,7 @@
   "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layou",
   "class_contract": "wordpress-classic",
   "css": [
+    "style.min.css",
     "style.css"
   ],
   "tokens": {
@@ -116,9 +117,6 @@
       "templates/search.html",
       "templates/single-no-separators.html",
       "templates/single.html"
-    ],
-    "css": [
-      "style.min.css"
     ],
     "other": [
       "assets/fonts/SourceSerif4Variable-Italic.otf.woff2",

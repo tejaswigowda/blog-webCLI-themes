@@ -7,6 +7,8 @@
   "description": "NewsBlogger is a dynamic and versatile child theme for the popular NewCrunch WordPress theme. Perfect for bloggers, journalists, and online magazines, it offers enhanced customization options, improved performance, and seamless integration with both the Gutenberg and Classic editors. Compatible to v",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/default.css",
+    "assets/css/dark.css",
     "style.css"
   ],
   "dropped": {
@@ -34,8 +36,6 @@
       "admin/assets/css/welcome.css",
       "admin/assets/css/welcome_customizer.css",
       "assets/css/admin.css",
-      "assets/css/dark.css",
-      "assets/css/default.css",
       "style-rtl.css"
     ],
     "other": [

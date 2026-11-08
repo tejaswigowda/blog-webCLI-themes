@@ -7,6 +7,7 @@
   "description": "NewsGoal is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. NewsGoal is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, ",
   "class_contract": "wordpress-classic",
   "css": [
+    "css/colors/default.css",
     "style.css"
   ],
   "dropped": {
@@ -22,9 +23,6 @@
       "sidebar-frontpageleft.php",
       "sidebar-frontpageright.php",
       "template-frontpage.php"
-    ],
-    "css": [
-      "css/colors/default.css"
     ],
     "other": [
       "images/head-back.jpg"

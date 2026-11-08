@@ -7,6 +7,7 @@
   "description": "Sell smart from the start with Hello Commerce. Hello Commerce is a free WordPress ecommerce theme designed to help you launch your online store quickly and professionally. Built for WooCommerce and powered by the flexibility of Elementor, it offers a lightweight, responsive foundation that’s perfect",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/header-footer.css",
     "style.css"
   ],
   "dropped": {
@@ -122,11 +123,10 @@
       "assets/css/editor-styles.css",
       "assets/css/editor.css",
       "assets/css/header-footer-rtl.css",
-      "assets/css/header-footer.css",
       "assets/css/hello-commerce-woocommerce-rtl.css",
       "assets/css/hello-commerce-woocommerce.css",
       "assets/css/theme-rtl.css",
-      "assets/css/theme.css"
+      "assets/css/theme.css (uses a script or data URL outside url())"
     ],
     "other": [
       "assets/images/ai.png",

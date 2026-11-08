@@ -7,11 +7,19 @@
   "description": "The 2011 theme for WordPress is sophisticated, lightweight, and adaptable. Make it yours with a custom menu, header image, and background -- then go further with available theme options for light or dark color scheme, custom link colors, and three layout choices. Twenty Eleven comes equipped with a ",
   "class_contract": "wordpress-classic",
   "css": [
+    "colors/dark.css",
+    "blocks.css",
     "style.css"
   ],
   "assets": [
+    "images/comment-arrow-bypostauthor-dark-rtl.png",
+    "images/comment-arrow-bypostauthor-dark.png",
     "images/comment-arrow-bypostauthor.png",
+    "images/comment-arrow-dark-rtl.png",
+    "images/comment-arrow-dark.png",
     "images/comment-arrow.png",
+    "images/comment-bubble-dark-rtl.png",
+    "images/comment-bubble-dark.png",
     "images/comment-bubble.png",
     "images/search.png"
   ],
@@ -58,8 +66,6 @@
       "js/showcase.js"
     ],
     "css": [
-      "blocks.css",
-      "colors/dark.css",
       "editor-blocks.css",
       "editor-style-rtl.css",
       "editor-style.css",
@@ -67,14 +73,8 @@
       "rtl.css"
     ],
     "other": [
-      "images/comment-arrow-bypostauthor-dark-rtl.png",
-      "images/comment-arrow-bypostauthor-dark.png",
       "images/comment-arrow-bypostauthor-rtl.png",
-      "images/comment-arrow-dark-rtl.png",
-      "images/comment-arrow-dark.png",
       "images/comment-arrow-rtl.png",
-      "images/comment-bubble-dark-rtl.png",
-      "images/comment-bubble-dark.png",
       "images/comment-bubble-rtl.png",
       "images/headers/chessboard-thumbnail.jpg",
       "images/headers/chessboard.jpg",

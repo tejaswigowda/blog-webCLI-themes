@@ -7,6 +7,9 @@
   "description": "Neve FSE is an experimental sister theme of Neve, for the ones that are ready to go full speed on full site editing, without backwards compatibility code.Neve FSE is a modern, minimalistic theme that is fully compatible with full-site-editing, it offers a range of patterns that make it perfect for s",
   "class_contract": "wordpress-classic",
   "css": [
+    "assets/css/build/style.css",
+    "assets/css/build/welcome-notice.css",
+    "assets/css/build/design-pack-notice.css",
     "style.css"
   ],
   "tokens": {
@@ -162,13 +165,10 @@
     ],
     "css": [
       "assets/css/build/design-pack-notice-rtl.css",
-      "assets/css/build/design-pack-notice.css",
       "assets/css/build/editor-rtl.css",
       "assets/css/build/editor.css",
       "assets/css/build/style-rtl.css",
-      "assets/css/build/style.css",
       "assets/css/build/welcome-notice-rtl.css",
-      "assets/css/build/welcome-notice.css",
       "vendor/codeinwp/themeisle-sdk/assets/js/build/support_hub/support-hub.css"
     ],
     "other": [
