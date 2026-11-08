@@ -22,6 +22,8 @@
     "assets/webfonts/fa-v4compatibility.ttf",
     "assets/webfonts/fa-v4compatibility.woff2"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "hfeed no-sidebar",
   "dropped": {
     "php": [
       "404.php",

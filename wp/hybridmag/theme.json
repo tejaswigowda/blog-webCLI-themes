@@ -18,6 +18,8 @@
     "assets/fonts/figtree/figtree-latin-italics.woff2",
     "assets/fonts/figtree/figtree-latin.woff2"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "hybridmag-wide hm-cl-sep th-hm-es hfeed hm-h-de hm-post-list hm-arc-img-ba hybridmagaif-left hm-footer-cols-3 no-sidebar",
   "dropped": {
     "php": [
       "404.php",

@@ -10,6 +10,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "wp-child-theme-prespa-wellness static-header no-sidebar",
   "tokens": {
     "colors": {
       "bighorn-sheep": "#d6aea2",

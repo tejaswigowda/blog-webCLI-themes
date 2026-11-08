@@ -11,6 +11,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "no-wc-breadcrumb storefront-full-width-content storefront-align-wide no-sidebar",
   "dropped": {
     "php": [
       "404.php",

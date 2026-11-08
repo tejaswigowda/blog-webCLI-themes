@@ -14,6 +14,8 @@
   "assets": [
     "images/wordpress.png"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "no-sidebar",
   "dropped": {
     "php": [
       "404.php",

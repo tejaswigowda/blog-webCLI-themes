@@ -20,6 +20,8 @@
     "assets/font-awesome/webfonts/fa-solid-900.woff2",
     "assets/font-awesome/webfonts/fa-v4compatibility.woff2"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "no-sidebar",
   "tokens": {
     "colors": {
       "background": "#00BBAE",

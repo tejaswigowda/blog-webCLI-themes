@@ -46,6 +46,8 @@
     "assets/fonts/libre-franklin/libre-franklin-vietnamese-800-italic.woff2",
     "assets/fonts/libre-franklin/libre-franklin-vietnamese-800-normal.woff2"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "twentyseventeen-front-page has-header-image page-two-column colors-light no-sidebar",
   "dropped": {
     "php": [
       "404.php",

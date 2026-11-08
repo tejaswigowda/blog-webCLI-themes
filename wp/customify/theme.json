@@ -20,6 +20,8 @@
     "build/fonts/font-awesome/fonts/fontawesome-webfont.woff2",
     "build/images/default-cover.jpg"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "hfeed site-full-width no-sidebar",
   "tokens": {
     "colors": {
       "base": "#FFFFFF",

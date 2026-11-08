@@ -12,6 +12,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "no-sidebar",
   "tokens": {
     "fontSizes": {
       "small": "12px",

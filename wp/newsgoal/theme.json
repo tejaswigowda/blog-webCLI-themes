@@ -11,6 +11,8 @@
     "css/colors/default.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "wp-child-theme-newsgoal hfeed ta-hide-date-author-in-list no-sidebar",
   "dropped": {
     "php": [
       "customizer-default.php",

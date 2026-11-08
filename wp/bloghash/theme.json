@@ -12,6 +12,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "bloghash-topbar__separators-regular bloghash-layout__fw-contained bloghash-layout__boxed-separated bloghash-layout-shadow bloghash-header-layout-1 bloghash-menu-animation-underline bloghash-header__separators-none bloghash-blog-horizontal bloghash-page-title-align-left entry-media-hover-style-1",
   "dropped": {
     "php": [
       "404.php",

@@ -11,6 +11,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "inspiro-front-page has-header-image page-layout-full-width post-display-content-excerpt full-height-iframe-video header-search-hidden colors-light no-sidebar",
   "tokens": {
     "colors": {
       "primary": "#101010",

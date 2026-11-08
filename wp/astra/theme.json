@@ -11,6 +11,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "ast-desktop ast-plain-container ast-single-post ast-hfb-header no-sidebar",
   "tokens": {
     "fontSizes": {
       "small": "13px",

@@ -11,6 +11,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "sinatra-topbar__separators-regular sinatra-layout__fw-contained sinatra-header-layout-1 sinatra-menu-animation-underline sinatra-header__separators-none si-blog-layout-1 si-page-title-align-left entry-media-hover-style-1 sinatra-copyright-layout-1 si-input-supported validate-comment-form",
   "dropped": {
     "php": [
       "404.php",

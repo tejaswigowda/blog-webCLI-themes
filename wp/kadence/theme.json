@@ -14,6 +14,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "hfeed footer-on-bottom hide-focus-outline link-style-standard content-title-style-hide content-width-normal content-style-boxed content-vertical-padding-show no-sidebar",
   "dropped": {
     "php": [
       "404.php",

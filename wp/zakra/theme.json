@@ -15,6 +15,8 @@
     "assets/fonts/themegrill-icons.woff",
     "assets/fonts/themegrill-icons.woff2"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "zak-site-layout--contained zak-container--wide zak-content-area--bordered has-page-header has-breadcrumbs no-sidebar",
   "dropped": {
     "php": [
       "404.php",

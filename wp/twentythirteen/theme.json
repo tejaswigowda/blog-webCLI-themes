@@ -19,6 +19,8 @@
     "images/search-icon-2x.png",
     "images/search-icon.png"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "single-author no-sidebar",
   "dropped": {
     "php": [
       "404.php",

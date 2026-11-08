@@ -10,6 +10,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "wp-child-theme-blogchrome hfeed aft-light-mode aft-header-layout-default header-image-default primary-post-title-font widget-title-border-bottom hover-title-underline default-content-layout full-width-content af-wide-layout aft-section-layout-background no-sidebar",
   "dropped": {
     "php": [
       "functions.php",

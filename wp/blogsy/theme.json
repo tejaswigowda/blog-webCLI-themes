@@ -14,6 +14,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "blogsy-menu-accessibility blogsy-smooth-scroll pt-shape--circle pt-header-layout-1 no-sidebar",
   "tokens": {
     "colors": {
       "accent": "#216be9",

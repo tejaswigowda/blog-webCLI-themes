@@ -9,6 +9,8 @@
   "css": [
     "style.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "colibri-theme-silverstorm no-sidebar",
   "dropped": {
     "php": [
       "404.php",

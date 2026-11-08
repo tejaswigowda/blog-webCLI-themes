@@ -17,6 +17,8 @@
     "images/comment-bubble.png",
     "images/search.png"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "single-author two-column no-sidebar",
   "dropped": {
     "php": [
       "404.php",

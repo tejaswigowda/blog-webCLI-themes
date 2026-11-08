@@ -67,6 +67,8 @@
     "fonts/montserrat/montserrat-vietnamese-400-normal.woff2",
     "fonts/montserrat/montserrat-vietnamese-700-normal.woff2"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "hfeed no-sidebar",
   "dropped": {
     "php": [
       "404.php",

@@ -10,6 +10,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "wp-child-theme-blogsy-news blogsy_news blogsy-menu-accessibility blogsy-smooth-scroll pt-shape--sharp pt-header-layout-4 no-sidebar",
   "dropped": {
     "php": [
       "functions.php",

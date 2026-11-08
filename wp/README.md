@@ -10,9 +10,11 @@ their real styling in `assets/css/`; right-to-left, editor, admin, customizer, p
 out, and so is any file that fails the app's CSS rules, each named with its reason under `dropped.css`), their images and
 fonts (within a size budget), and design tokens from a block theme's `theme.json`. The stylesheets are the ones the theme
 really enqueues, in its order, and `wp-inline.css` holds the CSS its PHP generates (the Customizer's colours and fonts as
-custom properties, a block theme's global styles), both read from the theme's demo page on wordpress.org. What is still
-missing is the theme's own page structure: the generated pages use the `wordpress-classic` markup, so a theme built on
-other class names (Astra's `.ast-container`, say) gets its colours and type but not its layout.
+custom properties, a block theme's global styles), both read from the theme's demo page on wordpress.org. Each theme also has a
+`skeleton.html` (50 of the 77): its own page structure (header, navigation, containers, footer) with the demo text taken out and
+holes for a blog's content, so a theme built on its own class names (Astra's `.ast-container`, say) lays out as it should. A
+theme whose demo page has no recognisable main area has none and uses the generic classic structure. Header images and
+mobile toggles are not part of a skeleton.
 PHP templates, `functions.php` and scripts are **not converted**; each `theme.json` lists them under `dropped`,
 with the source, the licence, the attribution and the archive's sha256.
 

@@ -18,6 +18,8 @@
     "assets/shared/fonts/customizr/customizr.woff",
     "assets/shared/fonts/customizr/customizr.woff2"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "czr-link-hover-underline header-skin-light footer-skin-dark tc-center-images czr-full-layout customizr-4-4-24 czr-post-list-context no-sidebar",
   "dropped": {
     "php": [
       "assets/back/css/index.php",

@@ -11,6 +11,8 @@
     "style.css",
     "wp-inline.css"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "wp-child-theme-oceanly-green hfeed post-thumbnail-hover-effect no-sidebar",
   "dropped": {
     "php": [
       "functions.php",

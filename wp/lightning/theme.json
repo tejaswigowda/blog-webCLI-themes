@@ -26,6 +26,8 @@
     "vendor/vektor-inc/font-awesome-versions/src/font-awesome/webfonts/fa-solid-900.woff2",
     "vendor/vektor-inc/font-awesome-versions/src/font-awesome/webfonts/fa-v4compatibility.woff2"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "device-pc fa_v7_css no-sidebar",
   "tokens": {
     "fontSizes": {
       "small": "0.875rem",

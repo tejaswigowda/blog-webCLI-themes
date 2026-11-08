@@ -39,6 +39,8 @@
     "genericons/Genericons.svg",
     "genericons/Genericons.ttf"
   ],
+  "skeleton": "skeleton.html",
+  "body_class": "better-responsive-menu narrow-1218 no-sidebar",
   "dropped": {
     "php": [
       "404.php",
