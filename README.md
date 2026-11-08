@@ -10,10 +10,10 @@ repository; this repository holds several. Each folder is a complete theme with 
 | [`terminal`](terminal) | `blog-webcli-v1` | MIT | Monospace, dark by default, prompt-style masthead |
 | [`paper`](paper) | `blog-webcli-v1` | MIT | High-contrast and minimal, with a print stylesheet |
 | [`cards`](cards) | `blog-webcli-v1` | MIT | The post list as a grid of cards |
-| [`wp/twentytwentyone`](wp/twentytwentyone) | `wordpress-classic` | **GPL-2.0-or-later** | Twenty Twenty-One 2.9 from wordpress.org, CSS only |
+| [`wp/*`](wp) | `wordpress-classic` | **GPL-2.0-or-later / GPL-3.0** | 77 of wordpress.org's most popular themes (Twenty Twenty-One, Astra, Kadence, GeneratePress, …), CSS and tokens only: [the list](wp/README.md) |
 
-**Licences are per folder.** Everything is MIT *except* `wp/`, which is GPL-2.0-or-later and has
-its own `LICENSE`. The licences stay in their own folders and neither infects the other. The
+**Licences are per folder.** Everything is MIT *except* `wp/`, whose themes are GPL (2.0-or-later, 3.0-or-later or 3.0-only), each
+folder with its own `LICENSE`. The licences stay in their own folders and neither infects the other. The
 `wp/` themes are ingested with `node cli/blog.js theme import <slug>`, directory themes only;
 their `theme.json` records the source, the licence, the attribution and what was dropped (PHP
 templates, `functions.php`, scripts).

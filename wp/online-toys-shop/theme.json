@@ -1,0 +1,136 @@
+{
+  "name": "Online Toys Shop",
+  "version": "1.4.1",
+  "licence": "GPL-2.0-or-later",
+  "source": "https://wordpress.org/themes/online-toys-shop/",
+  "attribution": "Online Toys Shop 1.4.1 by themescart (https://www.themescarts.com/products/online-toys-shop); licence GPL-2.0-or-later (http://www.gnu.org/licenses/gpl-2.0.html). Ingested from wordpress.org; PHP templates and scripts were not converted.",
+  "description": "Online Toys Shop Theme provides a structured storefront for displaying products, categories, offers, and essential shopping information. Toy Stores can organize products into clear categories and present product images, prices, descriptions, and other details through dedicated layouts. The responsiv",
+  "class_contract": "wordpress-classic",
+  "css": [
+    "style.css"
+  ],
+  "tokens": {
+    "colors": {
+      "background": "#00BBAE",
+      "tertiary": "#001430",
+      "background-two": "#002353",
+      "background-three": "#F7F7F7",
+      "product-background": "#EDEDEF",
+      "primary": "#000000",
+      "foreground": "#ffffff",
+      "secondary": "#383838"
+    },
+    "fontFamilies": {
+      "online-toys-shop-roboto": "Roboto, sans-serif"
+    },
+    "fontSizes": {
+      "small": "20px",
+      "medium": "24px",
+      "regular": "28px"
+    }
+  },
+  "dropped": {
+    "php": [
+      "functions.php",
+      "inc/TGM/class-tgm-plugin-activation.php",
+      "inc/TGM/tgm.php",
+      "inc/block-patterns.php",
+      "inc/customizer.php",
+      "inc/online-toys-shop-theme-info-page/class-theme-info.php",
+      "inc/online-toys-shop-theme-info-page/templates/class-theme-notice.php",
+      "inc/online-toys-shop-theme-info-page/templates/demo-import.php",
+      "inc/online-toys-shop-theme-info-page/templates/theme-details.php",
+      "inc/patterns/banner-section.php",
+      "inc/patterns/faq-section.php",
+      "inc/patterns/footer-default.php",
+      "inc/patterns/header-default.php",
+      "inc/patterns/hidden-404.php",
+      "inc/patterns/inner-banner.php",
+      "inc/patterns/latest-blog.php",
+      "inc/patterns/post-one-column.php",
+      "inc/patterns/post-two-column.php",
+      "inc/patterns/products-section.php",
+      "inc/patterns/search-banner.php",
+      "inc/patterns/sidebar.php"
+    ],
+    "js": [
+      "assets/js/custom-controls.js",
+      "assets/js/custom.js",
+      "assets/js/owl.carousel.js",
+      "assets/js/wow.js",
+      "inc/online-toys-shop-theme-info-page/js/online-toys-shop-copy-coupon.js",
+      "inc/online-toys-shop-theme-info-page/js/online-toys-shop-welcome-notice.js"
+    ],
+    "templates": [
+      "parts/footer.html",
+      "parts/header-banner.html",
+      "parts/header.html",
+      "parts/inner-banner.html",
+      "parts/sidebar.html",
+      "templates/404.html",
+      "templates/archive-product.html",
+      "templates/archive.html",
+      "templates/blog-full-width.html",
+      "templates/blog-left-sidebar.html",
+      "templates/blog-without-header-image.html",
+      "templates/front-page.html",
+      "templates/home.html",
+      "templates/index.html",
+      "templates/page-cart.html",
+      "templates/page-checkout.html",
+      "templates/page-left-sidebar.html",
+      "templates/page-right-sidebar.html",
+      "templates/page-without-header-image.html",
+      "templates/page.html",
+      "templates/search.html",
+      "templates/single-product.html",
+      "templates/single.html"
+    ],
+    "css": [
+      "assets/css/animate.css",
+      "assets/css/blocks.css",
+      "assets/css/customizer.css",
+      "assets/css/owl.carousel.css",
+      "assets/css/responsive.css",
+      "assets/font-awesome/css/all.css",
+      "assets/font-awesome/css/all.min.css",
+      "inc/online-toys-shop-theme-info-page/css/theme-details.css",
+      "style-rtl.css"
+    ],
+    "other": [
+      "assets/font-awesome/LICENSE.txt",
+      "assets/font-awesome/webfonts/fa-brands-400.woff2",
+      "assets/font-awesome/webfonts/fa-regular-400.woff2",
+      "assets/font-awesome/webfonts/fa-solid-900.woff2",
+      "assets/font-awesome/webfonts/fa-v4compatibility.woff2",
+      "assets/fonts/Roboto/OFL.txt",
+      "assets/fonts/Roboto/README.txt",
+      "assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf",
+      "assets/images/get-theme-bundle-img.png",
+      "assets/images/product-img1.png",
+      "assets/images/product-img2.png",
+      "assets/images/product-img3.png",
+      "assets/images/product-img4.png",
+      "assets/images/slider-bg.png",
+      "assets/images/slider-img1.png",
+      "assets/images/slider-img2.png",
+      "assets/images/slider-img3.png",
+      "inc/online-toys-shop-theme-info-page/css/theme-details-images/notice-bg.png",
+      "styles/aqua-blue.json",
+      "styles/brick-red.json",
+      "styles/brown.json",
+      "styles/green.json",
+      "styles/leaf-green.json",
+      "styles/neon-pink.json",
+      "styles/olive-green.json",
+      "styles/purple.json",
+      "styles/red.json",
+      "styles/sky-blue.json"
+    ]
+  },
+  "upstream": {
+    "slug": "online-toys-shop",
+    "version": "1.4.1",
+    "directory": "https://wordpress.org/themes/online-toys-shop/"
+  }
+}

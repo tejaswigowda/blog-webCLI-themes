@@ -1,0 +1,24 @@
+/*
+Theme Name: Webrand Lite
+Description: Webrand Lite is a Brand Agency and Creative Portfolio WordPress Block Theme designed for agencies and professionals who want to present their work with a modern and sophisticated online presence. Built to deliver a sleek dark-mode experience, this theme offers a stylish and professional platform to showcase branding projects, creative services, and portfolio highlights with strong visual impact. Whether you run a brand agency, creative studio, design consultancy, or personal portfolio, Webrand Lite helps you communicate your expertise with clarity and confidence. It is ideal for designers, creative agencies, marketing teams, freelancers, and visual storytellers looking to stand out in the competitive world of branding and creativity. With responsive layouts, customizable block patterns, and thoughtfully structured sections, you can easily display project showcases, service offerings, client work, and engaging visuals. Optimized for performance and usability, Webrand Lite enables you to build a polished website that reflects your creativity, professionalism, and unique brand identity.
+Author: Jegstudio
+Author URI: gutenverse.com
+Theme URI: https://gutenverse.com/themes/webrand-lite/ 
+Version: 1.0.1
+Stable tag: 1.0.1
+Requires at least: 6.5
+Tested up to: 6.9
+Requires PHP: 7.4
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: webrand-lite
+Domain Path: /languages
+Tags: block-patterns,block-styles,full-site-editing,full-width-template,portfolio,custom-menu
+Copyright: © Jegstudio. All rights reserved.
+*/
+
+
+
+.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .block-library-block__reusable-block-container {
+    max-width: 100%;
+}

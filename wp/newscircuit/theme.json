@@ -1,0 +1,25 @@
+{
+  "name": "NewsCircuit",
+  "version": "2.1.18",
+  "licence": "GPL-2.0-or-later",
+  "source": "https://wordpress.org/themes/newscircuit/",
+  "attribution": "NewsCircuit 2.1.18 by afthemes (https://afthemes.com/products/newscircuit/); licence GPL-2.0-or-later (http://www.gnu.org/licenses/gpl-2.0.html). Ingested from wordpress.org; PHP templates and scripts were not converted.",
+  "description": "NewsCircuit is a powerful, feature-rich, and SEO-optimized WordPress theme designed for news, blogs, magazines, and online publishing platforms, offering a stunning responsive design, accessibile and blazing-fast performance. Packed with 50+ ready-to-import demos for Gutenberg, Elementor, and other ",
+  "class_contract": "wordpress-classic",
+  "css": [
+    "style.css"
+  ],
+  "dropped": {
+    "php": [
+      "functions.php",
+      "inc/hooks/blocks/block-post-header-layout-1.php",
+      "inc/hooks/hook-front-page-banner-tabbed-posts.php",
+      "inc/hooks/hook-front-page-main-banner-section-9.php"
+    ]
+  },
+  "upstream": {
+    "slug": "newscircuit",
+    "version": "2.1.18",
+    "directory": "https://wordpress.org/themes/newscircuit/"
+  }
+}

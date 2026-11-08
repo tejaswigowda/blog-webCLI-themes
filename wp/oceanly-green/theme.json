@@ -1,0 +1,43 @@
+{
+  "name": "Oceanly Green",
+  "version": "1.0.8",
+  "licence": "GPL-2.0-or-later",
+  "source": "https://wordpress.org/themes/oceanly-green/",
+  "attribution": "Oceanly Green 1.0.8 by scriptstown (https://scriptstown.com/wordpress-themes/oceanly-green/); licence GPL-2.0-or-later (https://www.gnu.org/licenses/gpl-2.0.html). Ingested from wordpress.org; PHP templates and scripts were not converted.",
+  "description": "Oceanly Green is a clean, fresh, and thoughtfully designed WordPress theme for blogging, news sites, educational platforms, and eco-focused businesses. Built with a nature-inspired color palette, dark green vibrant tones, balanced typography, and a strong content-first approach, it delivers a smooth",
+  "class_contract": "wordpress-classic",
+  "css": [
+    "style.css"
+  ],
+  "dropped": {
+    "php": [
+      "functions.php",
+      "inc/classes/class-oceanly-green-cssrules.php",
+      "inc/classes/class-oceanly-green-enqueue.php",
+      "inc/classes/class-oceanly-green-related-posts.php",
+      "inc/classes/class-oceanly-green-select-multiple.php",
+      "inc/classes/class-oceanly-green-top-posts.php",
+      "inc/classes/class-oceanly-green-upsell.php",
+      "inc/recommended-plugins.php",
+      "inc/welcome-page.php",
+      "single.php",
+      "template-parts/footer/copyright.php",
+      "template-parts/header/top-posts.php",
+      "template-parts/related-posts.php"
+    ],
+    "js": [
+      "assets/js/customizer-contextual.js",
+      "assets/js/customizer-select-multiple.js"
+    ],
+    "css": [
+      "style-rtl.css",
+      "style.min-rtl.css",
+      "style.min.css"
+    ]
+  },
+  "upstream": {
+    "slug": "oceanly-green",
+    "version": "1.0.8",
+    "directory": "https://wordpress.org/themes/oceanly-green/"
+  }
+}

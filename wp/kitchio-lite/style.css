@@ -1,0 +1,24 @@
+/*
+Theme Name: Kitchio Lite
+Description: Kitchio Lite is a Kitchen Cabinets and Furniture WordPress Block Theme designed for businesses that want a modern and professional website to showcase their craftsmanship. Built with the power of the block editor and Gutenverse, this theme provides a flexible and visually appealing foundation for creating elegant websites that highlight custom cabinetry, premium furniture collections, and interior design projects. Whether you run a kitchen studio, furniture showroom, or custom woodworking business, this Kitchen Cabinets and Furniture theme helps present your work with clarity and style. The theme is well suited for cabinet makers, interior designers, furniture brands, home renovation companies, and carpentry professionals who want to build a strong online presence. With responsive layouts, clean typography, and customizable block-based sections, you can easily create pages that display portfolios, services, and client testimonials while maintaining a modern design experience. Designed for performance and usability, Kitchio Lite makes it simple to build a professional website that represents your brand and highlights your expertise in Kitchen Cabinets and Furniture design. If you are looking for a flexible and elegant solution, Kitchio Lite is a reliable Kitchen Cabinets and Furniture WordPress theme for growing your online presence.
+Author: Jegstudio
+Author URI: gutenverse.com
+Theme URI: https://gutenverse.com/themes/kitchio-lite/
+Version: 1.0.3
+Stable tag: 1.0.3
+Requires at least: 6.5
+Tested up to: 6.9
+Requires PHP: 7.0
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: kitchio-lite
+Domain Path: /languages
+Tags: block-patterns,editor-style,featured-images,full-site-editing
+Copyright: © Jegstudio. All rights reserved.
+*/
+
+
+
+.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .block-library-block__reusable-block-container {
+    max-width: 100%;
+}

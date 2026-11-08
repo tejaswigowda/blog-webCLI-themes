@@ -1,0 +1,30 @@
+{
+  "name": "Blogsy News",
+  "version": "1.0.2",
+  "licence": "GPL-2.0-or-later",
+  "source": "https://wordpress.org/themes/blogsy-news/",
+  "attribution": "Blogsy News 1.0.2 by peregrinethemes (https://peregrine-themes.com/blogsy/); licence GPL-2.0-or-later (http://www.gnu.org/licenses/gpl-2.0.html). Ingested from wordpress.org; PHP templates and scripts were not converted.",
+  "description": "Blogsy News is a modern, high-performance WordPress theme designed for bloggers, news publishers, and content creators who demand style and flexibility. Effortlessly shape your site with built-in support for the powerful Gutenberg block editor, ready-made block patterns, and seamless Elementor integ",
+  "class_contract": "wordpress-classic",
+  "css": [
+    "style.css"
+  ],
+  "dropped": {
+    "php": [
+      "functions.php",
+      "inc/customizer/options.php",
+      "inc/customizer/settings.php",
+      "inc/hooks.php",
+      "template-parts/header/header-layout-4.php",
+      "template-parts/hero/hero-three.php",
+      "template-parts/hero/hero-two.php",
+      "template-parts/post/content/content-blog-horizontal-2.php",
+      "template-parts/ticker/ticker.php"
+    ]
+  },
+  "upstream": {
+    "slug": "blogsy-news",
+    "version": "1.0.2",
+    "directory": "https://wordpress.org/themes/blogsy-news/"
+  }
+}
