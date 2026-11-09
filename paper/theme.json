@@ -1,8 +1,0 @@
-{
-  "name": "Paper",
-  "version": "1.0.0",
-  "licence": "MIT",
-  "description": "High-contrast and minimal: system sans-serif, black on white, hard rules, a considered print stylesheet.",
-  "class_contract": "blog-webcli-v1",
-  "css": ["style.css"]
-}

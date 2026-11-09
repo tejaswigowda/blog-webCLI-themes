@@ -1,0 +1,48 @@
+/* Wide — a theme for blog-webcli's own markup (blog-webcli-v1). MIT.
+   A wide page: the masthead and the index use the whole width, the article is a reading column in the middle of it.
+   Settings → Customization still applies on top. */
+:root { color-scheme: light dark; --fg: #1d2433; --muted: #5d667a; --bg: #f3f1ec; --surface: #fff; --rule: #d9d4c9; --link: #1f4fd8; --code: #ece8de; --accent: #c4401a; --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; --heading-font: var(--font); --width: 74rem; --size: 1.05rem; }
+@media (prefers-color-scheme: dark) { :root { --fg: #e6e9f2; --muted: #9aa3b8; --bg: #12151d; --surface: #1a1f2b; --rule: #2b3245; --link: #8fb0ff; --code: #1f2533; --accent: #ff8a5c; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: var(--size)/1.65 var(--font); }
+.wrap { max-width: var(--width); margin: 0 auto; padding: 1.5rem 2rem 4rem; }
+header.site { display: flex; justify-content: space-between; align-items: baseline; gap: 1.5rem; border-bottom: 4px solid var(--accent); padding-bottom: .8rem; margin-bottom: 3rem; }
+header.site a { color: var(--fg); text-decoration: none; }
+header.site a.brand { font-weight: 800; font-size: 1.6rem; letter-spacing: -.02em; display: inline-flex; align-items: center; gap: .6rem; }
+header.site nav a { margin-left: 1.6rem; font-size: .95rem; text-transform: uppercase; letter-spacing: .08em; }
+header.site nav a:hover { color: var(--accent); }
+img.logo { height: 2.2rem; width: auto; }
+h1, h2, h3 { font-family: var(--heading-font); line-height: 1.15; letter-spacing: -.015em; }
+h1 { font-size: 2.6rem; margin: .1em 0 .3em; }
+h2 { font-size: 1.6rem; margin: 2em 0 .5em; }
+h3 { font-size: 1.2rem; margin: 1.6em 0 .4em; }
+a { color: var(--link); }
+img { max-width: 100%; height: auto; }
+.cover { margin: 0 0 2rem; }
+.meta { color: var(--muted); font-size: .88rem; margin: 0 0 1.5rem; }
+.meta .tag { margin-left: .6rem; }
+article, .home, .home-after { max-width: 42rem; margin-left: auto; margin-right: auto; }
+article h1 { font-size: 3rem; }
+article .cover img, article figure { max-width: calc(100% + 12rem); margin-left: -6rem; margin-right: -6rem; width: calc(100% + 12rem); }
+blockquote { margin: 1.4em 0; padding: .1em 1.1em; border-left: 4px solid var(--accent); color: var(--muted); }
+pre { background: var(--code); padding: 1rem; overflow: auto; font-size: .85rem; line-height: 1.5; border-radius: 6px; }
+code { background: var(--code); padding: .1em .3em; border-radius: 4px; font-size: .9em; }
+pre code { background: none; padding: 0; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+table { border-collapse: collapse; width: 100%; margin: 1.5em 0; }
+th, td { border-bottom: 1px solid var(--rule); padding: .5em .6em; text-align: left; }
+th { background: var(--code); }
+figure.video { margin: 1.5rem 0; }
+figure.video iframe { width: 100%; aspect-ratio: 16/9; border: 0; border-radius: 6px; background: var(--code); }
+figure.video figcaption { font-size: .85rem; color: var(--muted); margin-top: .4rem; }
+body > .wrap > h1:first-of-type { font-size: 3.2rem; margin-bottom: .1em; }
+ul.posts { list-style: none; padding: 0; margin: 2rem 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 3rem; }
+ul.posts li { margin: 0; padding: 1.3rem 0; border-top: 1px solid var(--rule); }
+ul.posts .meta { margin: 0 0 .3rem; font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; }
+ul.posts h2 { font-size: 1.4rem; margin: 0; }
+ul.posts h2 a { color: var(--fg); text-decoration: none; }
+ul.posts h2 a:hover { color: var(--accent); }
+ul.posts p { color: var(--muted); margin: .4em 0 0; font-size: .95rem; }
+.post-nav { max-width: 42rem; margin: 2.5rem auto 0; }
+footer.site { margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .85rem; }
+.unresolved { color: var(--muted); }
+@media (max-width: 960px) { article .cover img, article figure { max-width: 100%; margin-left: 0; margin-right: 0; width: 100%; } ul.posts { grid-template-columns: 1fr; } .wrap { padding: 1rem; } article h1, h1 { font-size: 2.1rem; } }

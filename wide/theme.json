@@ -1,0 +1,9 @@
+{
+  "name": "Wide",
+  "version": "1.0.0",
+  "licence": "MIT",
+  "description": "A wide page: a broad masthead, a dated index in two columns and a reading column set in the middle of the space.",
+  "class_contract": "blog-webcli-v1",
+  "css": ["style.css"],
+  "origin": "authored"
+}
