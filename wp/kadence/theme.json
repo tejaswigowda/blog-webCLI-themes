@@ -687,5 +687,22 @@
     "slug": "kadence",
     "version": "1.6.0",
     "directory": "https://wordpress.org/themes/kadence/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1a202c",
+        "text": "#2d3748",
+        "background": "#f7fafc",
+        "muted": "#2d3748"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "17px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

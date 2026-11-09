@@ -293,5 +293,34 @@
     "slug": "colibri-wp",
     "version": "1.0.171",
     "directory": "https://wordpress.org/themes/colibri-wp/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1a1a1a",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#8d8d8d"
+      },
+      "font": "sans",
+      "width": "540px",
+      "fontSize": "20px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Flat lay photography of coffee latte, ground coffee, and coffee beans",
+      "credit": {
+        "name": "Nathan Dumlao",
+        "profile": "https://unsplash.com/@nate_dumlao",
+        "source": "https://unsplash.com/photos/flat-lay-photography-of-coffee-latte-ground-coffee-and-coffee-beans-Y3AqmbmtLQI"
+      }
+    },
+    "home": "## Colibri WP\n\nA beautiful, very customizable, multipurpose theme that you can use to create amazing websites through drag and drop."
   }
 }

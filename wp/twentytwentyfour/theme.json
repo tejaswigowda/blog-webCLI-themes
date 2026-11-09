@@ -162,5 +162,34 @@
     "slug": "twentytwentyfour",
     "version": "1.6",
     "directory": "https://wordpress.org/themes/twentytwentyfour/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#111111",
+        "text": "#111111",
+        "background": "#f9f9f9",
+        "muted": "#636363"
+      },
+      "font": "sans",
+      "width": "640px",
+      "fontSize": "17px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Flat lay photography of coffee latte, ground coffee, and coffee beans",
+      "credit": {
+        "name": "Nathan Dumlao",
+        "profile": "https://unsplash.com/@nate_dumlao",
+        "source": "https://unsplash.com/photos/flat-lay-photography-of-coffee-latte-ground-coffee-and-coffee-beans-Y3AqmbmtLQI"
+      }
+    },
+    "home": "## A commitment to innovation and sustainability\n\nÉtudes is a pioneering firm that seamlessly merges creativity and functionality to redefine architectural excellence."
   }
 }

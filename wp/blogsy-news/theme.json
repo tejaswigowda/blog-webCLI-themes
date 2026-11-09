@@ -29,5 +29,23 @@
     "slug": "blogsy-news",
     "version": "1.0.2",
     "directory": "https://wordpress.org/themes/blogsy-news/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#29294b",
+        "text": "#282424",
+        "background": "#faf8ff",
+        "muted": "#282424"
+      },
+      "font": "serif",
+      "headingFont": "sans",
+      "width": "730px",
+      "fontSize": "15px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

@@ -344,5 +344,22 @@
     "slug": "bloghash",
     "version": "1.0.31",
     "directory": "https://wordpress.org/themes/bloghash/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#302d55",
+        "text": "#66717f",
+        "background": "#f7f8f9",
+        "muted": "#302d55"
+      },
+      "font": "sans",
+      "width": "710px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

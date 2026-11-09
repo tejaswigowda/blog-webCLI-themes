@@ -209,5 +209,34 @@
     "slug": "unibiz",
     "version": "1.0.9",
     "directory": "https://wordpress.org/themes/unibiz/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#7722ff",
+        "text": "#011222",
+        "background": "#ffffff",
+        "muted": "#011222"
+      },
+      "font": "sans",
+      "width": "720px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Flat lay photography of coffee latte, ground coffee, and coffee beans",
+      "credit": {
+        "name": "Nathan Dumlao",
+        "profile": "https://unsplash.com/@nate_dumlao",
+        "source": "https://unsplash.com/photos/flat-lay-photography-of-coffee-latte-ground-coffee-and-coffee-beans-Y3AqmbmtLQI"
+      }
+    },
+    "home": "## Built a Strong Online Presence Business\n\nBuild any website you want for business, portfolio, blogging, or freelancer, faster and lighter using just one theme."
   }
 }

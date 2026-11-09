@@ -35,5 +35,22 @@
     "slug": "newsgoal",
     "version": "0.4",
     "directory": "https://wordpress.org/themes/newsgoal/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#222222",
+        "text": "#222222",
+        "background": "#f9fafb",
+        "muted": "#222222"
+      },
+      "font": "sans",
+      "width": "730px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

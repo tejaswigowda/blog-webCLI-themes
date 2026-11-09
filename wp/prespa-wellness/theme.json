@@ -121,5 +121,35 @@
     "slug": "prespa-wellness",
     "version": "1.0.8",
     "directory": "https://wordpress.org/themes/prespa-wellness/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#000000",
+        "text": "#000000",
+        "background": "#ffffff",
+        "muted": "#000000"
+      },
+      "font": "humanist",
+      "headingFont": "serif",
+      "width": "720px",
+      "fontSize": "18px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Flat lay photography of coffee latte, ground coffee, and coffee beans",
+      "credit": {
+        "name": "Nathan Dumlao",
+        "profile": "https://unsplash.com/@nate_dumlao",
+        "source": "https://unsplash.com/photos/flat-lay-photography-of-coffee-latte-ground-coffee-and-coffee-beans-Y3AqmbmtLQI"
+      }
+    },
+    "home": "## Escape the noise, find your calm.\n\nRejuvenate your body, mind, and spirit."
   }
 }

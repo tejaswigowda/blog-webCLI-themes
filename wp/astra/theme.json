@@ -794,5 +794,22 @@
     "slug": "astra",
     "version": "4.14.2",
     "directory": "https://wordpress.org/themes/astra/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1e293b",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#8d8d8d"
+      },
+      "font": "sans",
+      "width": "720px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

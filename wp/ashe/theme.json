@@ -28,7 +28,8 @@
     "assets/fonts/fontello.svg",
     "assets/fonts/fontello.ttf",
     "assets/fonts/fontello.woff",
-    "assets/fonts/fontello.woff2"
+    "assets/fonts/fontello.woff2",
+    "kit/hero.jpg"
   ],
   "dropped": {
     "php": [
@@ -130,5 +131,32 @@
     "slug": "ashe",
     "version": "2.275",
     "directory": "https://wordpress.org/themes/ashe/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#030303",
+        "text": "#464646",
+        "background": "#ffffff",
+        "muted": "#464646"
+      },
+      "font": "sans",
+      "headingFont": "serif",
+      "width": "680px",
+      "fontSize": "15px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Landscape photography of lake and mountain",
+      "credit": {
+        "name": "Tobias Keller",
+        "profile": "https://unsplash.com/@tokeller",
+        "source": "https://unsplash.com/photos/landscape-photography-of-lake-and-mountain-73F4pKoUkM0"
+      }
+    },
+    "home": "## Ashe\n\nPersonal and Multi-Author Free WordPress Blog Theme."
   }
 }

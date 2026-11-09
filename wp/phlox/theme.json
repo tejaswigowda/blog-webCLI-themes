@@ -658,5 +658,22 @@
     "slug": "phlox",
     "version": "2.17.22",
     "directory": "https://wordpress.org/themes/phlox/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#444444",
+        "text": "#444444",
+        "background": "#ffffff",
+        "muted": "#444444"
+      },
+      "font": "sans",
+      "width": "690px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

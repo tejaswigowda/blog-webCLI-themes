@@ -75,5 +75,22 @@
     "slug": "futurio-storefront",
     "version": "1.0.4",
     "directory": "https://wordpress.org/themes/futurio-storefront/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#434343",
+        "text": "#686868",
+        "background": "#ffffff",
+        "muted": "#686868"
+      },
+      "font": "sans",
+      "width": "730px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

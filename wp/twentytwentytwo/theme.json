@@ -175,5 +175,23 @@
     "slug": "twentytwentytwo",
     "version": "2.2",
     "directory": "https://wordpress.org/themes/twentytwentytwo/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#000000",
+        "text": "#000000",
+        "background": "#ffffff",
+        "muted": "#000000"
+      },
+      "font": "sans",
+      "headingFont": "serif",
+      "width": "680px",
+      "fontSize": "18px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

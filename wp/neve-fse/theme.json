@@ -265,5 +265,34 @@
     "slug": "neve-fse",
     "version": "1.1.9",
     "directory": "https://wordpress.org/themes/neve-fse/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#000000",
+        "text": "#000000",
+        "background": "#ffffff",
+        "muted": "#000000"
+      },
+      "font": "sans",
+      "width": "710px",
+      "fontSize": "20px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Landscape photography of lake and mountain",
+      "credit": {
+        "name": "Tobias Keller",
+        "profile": "https://unsplash.com/@tokeller",
+        "source": "https://unsplash.com/photos/landscape-photography-of-lake-and-mountain-73F4pKoUkM0"
+      }
+    },
+    "home": "## Neve FSE\n\nBuild a website for your business or brand, with Neve FSE"
   }
 }

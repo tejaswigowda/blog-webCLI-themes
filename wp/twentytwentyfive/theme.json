@@ -288,5 +288,22 @@
     "slug": "twentytwentyfive",
     "version": "1.5",
     "directory": "https://wordpress.org/themes/twentytwentyfive/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#444444",
+        "text": "#444444",
+        "background": "#ffffff",
+        "muted": "#444444"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

@@ -167,5 +167,22 @@
     "slug": "generatepress",
     "version": "3.6.1",
     "directory": "https://wordpress.org/themes/generatepress/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#222222",
+        "text": "#222222",
+        "background": "#f7f8f9",
+        "muted": "#575760"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "17px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

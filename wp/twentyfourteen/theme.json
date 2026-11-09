@@ -36,7 +36,8 @@
     "fonts/lato/lato-latin-ext-700-normal.woff2",
     "fonts/lato/lato-latin-ext-900-normal.woff2",
     "images/pattern-dark.svg",
-    "images/pattern-light.svg"
+    "images/pattern-light.svg",
+    "kit/hero.jpg"
   ],
   "skeleton": "skeleton.html",
   "body_class": "masthead-fixed list-view full-width grid no-sidebar",
@@ -117,5 +118,31 @@
     "slug": "twentyfourteen",
     "version": "4.6",
     "directory": "https://wordpress.org/themes/twentyfourteen/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#2b2b2b",
+        "text": "#2b2b2b",
+        "background": "#ffffff",
+        "muted": "#767676"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Brown dirt road between green grass and trees during daytime",
+      "credit": {
+        "name": "Maksim Shutov",
+        "profile": "https://unsplash.com/@maksimshutov",
+        "source": "https://unsplash.com/photos/brown-dirt-road-between-green-grass-and-trees-during-daytime-H8vhhepiiaU"
+      }
+    },
+    "home": "## Twenty Fourteen\n\nThe purpose of this HTML is to help determine what default settings are with CSS and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site."
   }
 }

@@ -24,5 +24,35 @@
     "slug": "newscircuit",
     "version": "2.1.18",
     "directory": "https://wordpress.org/themes/newscircuit/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#404040",
+        "text": "#3a3a3a",
+        "background": "#f7f7f7",
+        "muted": "#3a3a3a"
+      },
+      "font": "sans",
+      "headingFont": "humanist",
+      "width": "730px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Landscape photography of lake and mountain",
+      "credit": {
+        "name": "Tobias Keller",
+        "profile": "https://unsplash.com/@tokeller",
+        "source": "https://unsplash.com/photos/landscape-photography-of-lake-and-mountain-73F4pKoUkM0"
+      }
+    },
+    "home": "## NewsCircuit\n\nNewsCircuit is a powerful, feature-rich, and SEO-optimized WordPress theme designed for news, blogs, magazines, and online publishing platforms, offering a stunning responsive design, accessibile and blazing-fast performance."
   }
 }

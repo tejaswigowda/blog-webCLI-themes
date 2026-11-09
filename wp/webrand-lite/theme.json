@@ -207,5 +207,34 @@
     "slug": "webrand-lite",
     "version": "1.0.1",
     "directory": "https://wordpress.org/themes/webrand-lite/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#ff540a",
+        "text": "#ff540a",
+        "background": "#0d0501",
+        "muted": "#ff540a"
+      },
+      "font": "serif",
+      "headingFont": "sans",
+      "width": "720px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Gray and black laptop computer on white table",
+      "credit": {
+        "name": "Alexa Williams",
+        "profile": "https://unsplash.com/@glamorousplanning",
+        "source": "https://unsplash.com/photos/gray-and-black-laptop-computer-on-white-table-RaYjMmmaSCA"
+      }
+    },
+    "home": "## Webrand Lite\n\nWebrand helps your business shine with bold strategies and creative solutions, turning potential into success."
   }
 }

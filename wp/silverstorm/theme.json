@@ -348,5 +348,34 @@
     "slug": "silverstorm",
     "version": "1.0.38",
     "directory": "https://wordpress.org/themes/silverstorm/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#373739",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#8d8d8d"
+      },
+      "font": "sans",
+      "width": "520px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Pink roses in close up photography",
+      "credit": {
+        "name": "Rikonavt",
+        "profile": "https://unsplash.com/@rikonavt",
+        "source": "https://unsplash.com/photos/pink-roses-in-close-up-photography-oEWdQsbRVZk"
+      }
+    },
+    "home": "## Silverstorm\n\nA beautiful, very customizable, multipurpose theme that you can use to create amazing websites through drag and drop."
   }
 }

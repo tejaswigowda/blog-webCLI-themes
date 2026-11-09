@@ -56,5 +56,21 @@
     "slug": "newsblogger",
     "version": "0.2.6.7",
     "directory": "https://wordpress.org/themes/newsblogger/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#000000",
+        "text": "#525252",
+        "background": "#eeeef5",
+        "muted": "#a0a0a4"
+      },
+      "font": "sans",
+      "width": "740px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

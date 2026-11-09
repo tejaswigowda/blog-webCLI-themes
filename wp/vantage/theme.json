@@ -30,7 +30,8 @@
     "images/sprites/gallery-prev.png",
     "images/sprites/more-icon.png",
     "images/sprites/slide-indicator-active.png",
-    "images/sprites/slide-indicator-inactive.png"
+    "images/sprites/slide-indicator-inactive.png",
+    "kit/hero.jpg"
   ],
   "skeleton": "skeleton.html",
   "body_class": "responsive layout-full has-menu-search page-layout-default siteorigin-panels siteorigin-panels-home siteorigin-panels-lite-home mobilenav no-sidebar",
@@ -276,5 +277,30 @@
     "slug": "vantage",
     "version": "1.20.33",
     "directory": "https://wordpress.org/themes/vantage/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#248cc8",
+        "text": "#5e5e5e",
+        "background": "#fcfcfc",
+        "muted": "#5e5e5e"
+      },
+      "font": "sans",
+      "width": "680px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Building beside body of water during night time",
+      "credit": {
+        "name": "Jonathan Roger",
+        "profile": "https://unsplash.com/@jonathanroger",
+        "source": "https://unsplash.com/photos/building-beside-body-of-water-during-night-time-LY1eyQMFeyo"
+      }
+    },
+    "home": "## Vantage\n\nYou can edit this home page using our free, drag and drop Page Builder, or simply disable it to fall back to a standard blog. It's a powerful page building experience."
   }
 }

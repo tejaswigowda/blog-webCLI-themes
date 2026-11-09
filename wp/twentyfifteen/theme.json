@@ -158,5 +158,34 @@
     "slug": "twentyfifteen",
     "version": "4.3",
     "directory": "https://wordpress.org/themes/twentyfifteen/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#333333",
+        "text": "#333333",
+        "background": "#f1f1f1",
+        "muted": "#333333"
+      },
+      "font": "serif",
+      "width": "640px",
+      "fontSize": "17px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Modern building with sharp geometric angles against a clear sky",
+      "credit": {
+        "name": "Ryunosuke Kikuno",
+        "profile": "https://unsplash.com/@ryunosuke_kikuno",
+        "source": "https://unsplash.com/photos/modern-building-with-sharp-geometric-angles-against-a-clear-sky-ILFfFsqmt2A"
+      }
+    },
+    "home": "## Twenty Fifteen\n\nOur 2015 default theme is clean, blog-focused, and designed for clarity."
   }
 }

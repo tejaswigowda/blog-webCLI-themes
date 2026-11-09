@@ -13,7 +13,8 @@
   "assets": [
     "assets/fonts/themegrill-icons.eot",
     "assets/fonts/themegrill-icons.woff",
-    "assets/fonts/themegrill-icons.woff2"
+    "assets/fonts/themegrill-icons.woff2",
+    "kit/hero.jpg"
   ],
   "skeleton": "skeleton.html",
   "body_class": "zak-site-layout--contained zak-container--wide zak-content-area--bordered has-page-header has-breadcrumbs no-sidebar",
@@ -608,5 +609,31 @@
     "slug": "zakra",
     "version": "4.3.3",
     "directory": "https://wordpress.org/themes/zakra/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#5c5c5c",
+        "text": "#5c5c5c",
+        "background": "#ffffff",
+        "muted": "#5c5c5c"
+      },
+      "font": "sans",
+      "width": "720px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Landscape photography of lake and mountain",
+      "credit": {
+        "name": "Tobias Keller",
+        "profile": "https://unsplash.com/@tokeller",
+        "source": "https://unsplash.com/photos/landscape-photography-of-lake-and-mountain-73F4pKoUkM0"
+      }
+    },
+    "home": "## Home\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed proin eget eu sit nec risus. Sed ut quam integer a nisl amet. Ed ut quam integer a nisl amet"
   }
 }

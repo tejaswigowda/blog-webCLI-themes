@@ -446,5 +446,35 @@
     "slug": "hestia",
     "version": "3.3.9",
     "directory": "https://wordpress.org/themes/hestia/"
-  }
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#89229b",
+        "text": "#1a1a1a",
+        "background": "#e5e5e5",
+        "muted": "#808080"
+      },
+      "font": "sans",
+      "headingFont": "slab",
+      "width": "570px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Flat lay photography of coffee latte, ground coffee, and coffee beans",
+      "credit": {
+        "name": "Nathan Dumlao",
+        "profile": "https://unsplash.com/@nate_dumlao",
+        "source": "https://unsplash.com/photos/flat-lay-photography-of-coffee-latte-ground-coffee-and-coffee-beans-Y3AqmbmtLQI"
+      }
+    },
+    "home": "## Welcome to Hestia!\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ]
 }

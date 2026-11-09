@@ -246,5 +246,34 @@
     "slug": "purple",
     "version": "1.0.3",
     "directory": "https://wordpress.org/themes/purple/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#111111",
+        "text": "#111111",
+        "background": "#ffffff",
+        "muted": "#111111"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Pink roses in close up photography",
+      "credit": {
+        "name": "Rikonavt",
+        "profile": "https://unsplash.com/@rikonavt",
+        "source": "https://unsplash.com/photos/pink-roses-in-close-up-photography-oEWdQsbRVZk"
+      }
+    },
+    "home": "## Colorful knits, crafted to last\n\nBold knits designed with care, for you and the planet."
   }
 }

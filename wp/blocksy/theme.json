@@ -1450,5 +1450,22 @@
     "slug": "blocksy",
     "version": "2.1.61",
     "directory": "https://wordpress.org/themes/blocksy/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#192a3d",
+        "text": "#3a4f66",
+        "background": "#fafbfc",
+        "muted": "#3a4f66"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

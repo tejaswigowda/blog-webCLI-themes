@@ -137,5 +137,22 @@
     "slug": "online-toys-shop",
     "version": "1.4.1",
     "directory": "https://wordpress.org/themes/online-toys-shop/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#000000",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#8d8d8d"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "18px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

@@ -117,5 +117,34 @@
     "slug": "elastra",
     "version": "1.0.5",
     "directory": "https://wordpress.org/themes/elastra/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1a1a1a",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#8d8d8d"
+      },
+      "font": "sans",
+      "width": "610px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Body of water near trees and mountain cliff during daytime",
+      "credit": {
+        "name": "Derek Thomson",
+        "profile": "https://unsplash.com/@derekthomson",
+        "source": "https://unsplash.com/photos/body-of-water-near-trees-and-mountain-cliff-during-daytime-TWoL-QCZubY"
+      }
+    },
+    "home": "## Elastra\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nisl quis erat consequat faucibus. Donec luctus neque sed ligula placerat, eget cursus libero faucibus."
   }
 }

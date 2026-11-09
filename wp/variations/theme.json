@@ -363,5 +363,34 @@
     "slug": "variations",
     "version": "4.4.1",
     "directory": "https://wordpress.org/themes/variations/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#041d55",
+        "text": "#212121",
+        "background": "#ffffff",
+        "muted": "#212121"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Brown dirt road between green grass and trees during daytime",
+      "credit": {
+        "name": "Maksim Shutov",
+        "profile": "https://unsplash.com/@maksimshutov",
+        "source": "https://unsplash.com/photos/brown-dirt-road-between-green-grass-and-trees-during-daytime-H8vhhepiiaU"
+      }
+    },
+    "home": "## Variations\n\nfeel their ability to work remotely has improved"
   }
 }

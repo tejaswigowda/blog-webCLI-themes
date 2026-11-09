@@ -367,5 +367,34 @@
     "slug": "miles-wp",
     "version": "1.0.9",
     "directory": "https://wordpress.org/themes/miles-wp/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#0000ee",
+        "text": "#5a4334",
+        "background": "#ffffff",
+        "muted": "#121214"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Pink roses in close up photography",
+      "credit": {
+        "name": "Rikonavt",
+        "profile": "https://unsplash.com/@rikonavt",
+        "source": "https://unsplash.com/photos/pink-roses-in-close-up-photography-oEWdQsbRVZk"
+      }
+    },
+    "home": "## Miles WP\n\nAn innovative, easily customizable, multi-purpose theme, focused on empowering users to build astonishing WordPress websites."
   }
 }

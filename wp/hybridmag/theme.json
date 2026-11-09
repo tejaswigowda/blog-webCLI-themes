@@ -16,7 +16,8 @@
     "assets/fonts/figtree/figtree-latin-ext-italics.woff2",
     "assets/fonts/figtree/figtree-latin-ext.woff2",
     "assets/fonts/figtree/figtree-latin-italics.woff2",
-    "assets/fonts/figtree/figtree-latin.woff2"
+    "assets/fonts/figtree/figtree-latin.woff2",
+    "kit/hero.jpg"
   ],
   "skeleton": "skeleton.html",
   "body_class": "hybridmag-wide hm-cl-sep th-hm-es hfeed hm-h-de hm-post-list hm-arc-img-ba hybridmagaif-left hm-footer-cols-3 no-sidebar",
@@ -128,5 +129,31 @@
     "slug": "hybridmag",
     "version": "1.1.5",
     "directory": "https://wordpress.org/themes/hybridmag/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#0a0808",
+        "text": "#505050",
+        "background": "#f5f5f5",
+        "muted": "#7d7d7d"
+      },
+      "font": "sans",
+      "width": "720px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Building beside body of water during night time",
+      "credit": {
+        "name": "Jonathan Roger",
+        "profile": "https://unsplash.com/@jonathanroger",
+        "source": "https://unsplash.com/photos/building-beside-body-of-water-during-night-time-LY1eyQMFeyo"
+      }
+    },
+    "home": "## HybridMag\n\nThe purpose of this HTML is to help determine what default settings are with CSS and … ElementsRead more"
   }
 }

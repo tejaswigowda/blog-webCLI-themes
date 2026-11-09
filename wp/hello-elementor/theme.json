@@ -113,5 +113,22 @@
     "slug": "hello-elementor",
     "version": "3.5.2",
     "directory": "https://wordpress.org/themes/hello-elementor/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#cc3366",
+        "text": "#333333",
+        "background": "#ffffff",
+        "muted": "#333333"
+      },
+      "font": "sans",
+      "width": "500px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

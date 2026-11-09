@@ -291,5 +291,21 @@
     "slug": "spacious",
     "version": "1.10.0",
     "directory": "https://wordpress.org/themes/spacious/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#666666",
+        "text": "#666666",
+        "background": "#ffffff",
+        "muted": "#666666"
+      },
+      "font": "sans",
+      "width": "530px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

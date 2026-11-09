@@ -102,5 +102,22 @@
     "slug": "twentytwentythree",
     "version": "1.7",
     "directory": "https://wordpress.org/themes/twentytwentythree/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#000000",
+        "text": "#000000",
+        "background": "#ffffff",
+        "muted": "#000000"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "17px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

@@ -44,7 +44,8 @@
     "assets/fonts/libre-franklin/libre-franklin-vietnamese-600-italic.woff2",
     "assets/fonts/libre-franklin/libre-franklin-vietnamese-600-normal.woff2",
     "assets/fonts/libre-franklin/libre-franklin-vietnamese-800-italic.woff2",
-    "assets/fonts/libre-franklin/libre-franklin-vietnamese-800-normal.woff2"
+    "assets/fonts/libre-franklin/libre-franklin-vietnamese-800-normal.woff2",
+    "kit/hero.jpg"
   ],
   "skeleton": "skeleton.html",
   "body_class": "twentyseventeen-front-page has-header-image page-two-column colors-light no-sidebar",
@@ -120,5 +121,31 @@
     "slug": "twentyseventeen",
     "version": "4.2",
     "directory": "https://wordpress.org/themes/twentyseventeen/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#333333",
+        "text": "#333333",
+        "background": "#ffffff",
+        "muted": "#767676"
+      },
+      "font": "serif",
+      "width": "760px",
+      "fontSize": "18px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Brown dirt road between green grass and trees during daytime",
+      "credit": {
+        "name": "Maksim Shutov",
+        "profile": "https://unsplash.com/@maksimshutov",
+        "source": "https://unsplash.com/photos/brown-dirt-road-between-green-grass-and-trees-during-daytime-H8vhhepiiaU"
+      }
+    },
+    "home": "## Twenty Seventeen\n\nTwenty Seventeen brings your site to life with header video and immersive featured images."
   }
 }

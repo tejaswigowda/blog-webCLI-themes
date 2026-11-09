@@ -65,7 +65,8 @@
     "fonts/montserrat/montserrat-latin-ext-400-normal.woff2",
     "fonts/montserrat/montserrat-latin-ext-700-normal.woff2",
     "fonts/montserrat/montserrat-vietnamese-400-normal.woff2",
-    "fonts/montserrat/montserrat-vietnamese-700-normal.woff2"
+    "fonts/montserrat/montserrat-vietnamese-700-normal.woff2",
+    "kit/hero.jpg"
   ],
   "skeleton": "skeleton.html",
   "body_class": "hfeed no-sidebar",
@@ -135,5 +136,31 @@
     "slug": "twentysixteen",
     "version": "3.9",
     "directory": "https://wordpress.org/themes/twentysixteen/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1a1a1a",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#686868"
+      },
+      "font": "serif",
+      "width": "710px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Building beside body of water during night time",
+      "credit": {
+        "name": "Jonathan Roger",
+        "profile": "https://unsplash.com/@jonathanroger",
+        "source": "https://unsplash.com/photos/building-beside-body-of-water-during-night-time-LY1eyQMFeyo"
+      }
+    },
+    "home": "## Twenty Sixteen\n\nTwenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites."
   }
 }

@@ -234,5 +234,34 @@
     "slug": "tourze-lite",
     "version": "1.0.5",
     "directory": "https://wordpress.org/themes/tourze-lite/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1a1a1a",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#838380"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Flat lay photography of coffee latte, ground coffee, and coffee beans",
+      "credit": {
+        "name": "Nathan Dumlao",
+        "profile": "https://unsplash.com/@nate_dumlao",
+        "source": "https://unsplash.com/photos/flat-lay-photography-of-coffee-latte-ground-coffee-and-coffee-beans-Y3AqmbmtLQI"
+      }
+    },
+    "home": "## Tourze Lite\n\nFind a tour that matches your style. Whether you love relaxing beaches, cultural experiences, or adventurous journeys, we have the perfect trip waiting for you."
   }
 }

@@ -288,5 +288,34 @@
     "slug": "prespa",
     "version": "1.7.9",
     "directory": "https://wordpress.org/themes/prespa/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#2253cb",
+        "text": "#404040",
+        "background": "#ffffff",
+        "muted": "#404040"
+      },
+      "font": "sans",
+      "width": "720px",
+      "fontSize": "18px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Landscape photography of lake and mountain",
+      "credit": {
+        "name": "Tobias Keller",
+        "profile": "https://unsplash.com/@tokeller",
+        "source": "https://unsplash.com/photos/landscape-photography-of-lake-and-mountain-73F4pKoUkM0"
+      }
+    },
+    "home": "## The Right Digital Solutions for your Business\n\nWe offer high speed, unparalleled security and 24/7 support."
   }
 }

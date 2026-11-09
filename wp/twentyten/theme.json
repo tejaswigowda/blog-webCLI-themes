@@ -12,7 +12,8 @@
     "wp-inline.css"
   ],
   "assets": [
-    "images/wordpress.png"
+    "images/wordpress.png",
+    "kit/hero.jpg"
   ],
   "skeleton": "skeleton.html",
   "body_class": "no-sidebar",
@@ -73,5 +74,30 @@
     "slug": "twentyten",
     "version": "4.7",
     "directory": "https://wordpress.org/themes/twentyten/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#000000",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#777777"
+      },
+      "font": "sans",
+      "width": "400px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Brown dirt road between green grass and trees during daytime",
+      "credit": {
+        "name": "Maksim Shutov",
+        "profile": "https://unsplash.com/@maksimshutov",
+        "source": "https://unsplash.com/photos/brown-dirt-road-between-green-grass-and-trees-during-daytime-H8vhhepiiaU"
+      }
+    },
+    "home": "## Twenty Ten\n\nThe purpose of this HTML is to help determine what default settings are with CSS and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site."
   }
 }

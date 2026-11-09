@@ -25,7 +25,8 @@
     "assets/fonts/OpenSans-SemiBold.woff",
     "assets/fonts/OpenSans-SemiBoldItalic.woff",
     "assets/fonts/OpenSans-VariableFont.woff",
-    "assets/img/starter/header-bg.jpg"
+    "assets/img/starter/header-bg.jpg",
+    "kit/hero.jpg"
   ],
   "tokens": {
     "fontFamilies": {
@@ -615,5 +616,31 @@
     "slug": "colormag",
     "version": "4.2.7",
     "directory": "https://wordpress.org/themes/colormag/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1a1a1a",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#8d8d8d"
+      },
+      "font": "sans",
+      "width": "710px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Gray and black laptop computer on white table",
+      "credit": {
+        "name": "Alexa Williams",
+        "profile": "https://unsplash.com/@glamorousplanning",
+        "source": "https://unsplash.com/photos/gray-and-black-laptop-computer-on-white-table-RaYjMmmaSCA"
+      }
+    },
+    "home": "## ColorMag\n\nDorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
   }
 }

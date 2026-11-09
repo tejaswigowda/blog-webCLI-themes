@@ -373,5 +373,34 @@
     "slug": "rufous",
     "version": "1.0.86",
     "directory": "https://wordpress.org/themes/rufous/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#0000ee",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#121214"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Modern building with sharp geometric angles against a clear sky",
+      "credit": {
+        "name": "Ryunosuke Kikuno",
+        "profile": "https://unsplash.com/@ryunosuke_kikuno",
+        "source": "https://unsplash.com/photos/modern-building-with-sharp-geometric-angles-against-a-clear-sky-ILFfFsqmt2A"
+      }
+    },
+    "home": "## Rufous\n\nRufous is an innovative, easily customizable, multi-purpose theme, focused on empowering users to build astonishing WordPress websites."
   }
 }

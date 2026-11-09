@@ -70,5 +70,22 @@
     "slug": "envo-one",
     "version": "1.0.5",
     "directory": "https://wordpress.org/themes/envo-one/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#404040",
+        "text": "#121212",
+        "background": "#ffffff",
+        "muted": "#121212"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

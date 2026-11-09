@@ -70,5 +70,34 @@
     "slug": "ona-architecture",
     "version": "1.0.0",
     "directory": "https://wordpress.org/themes/ona-architecture/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1a1a1a",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#8d8d8d"
+      },
+      "font": "sans",
+      "width": "600px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Body of water near trees and mountain cliff during daytime",
+      "credit": {
+        "name": "Derek Thomson",
+        "profile": "https://unsplash.com/@derekthomson",
+        "source": "https://unsplash.com/photos/body-of-water-near-trees-and-mountain-cliff-during-daytime-TWoL-QCZubY"
+      }
+    },
+    "home": "## Blueprints Down Under\n\nBring your unique vision to life. Our bespoke design process transforms your ideas into a one-of-a-kind home tailored to your lifestyle and preferences."
   }
 }

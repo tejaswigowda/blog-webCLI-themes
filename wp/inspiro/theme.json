@@ -421,5 +421,34 @@
     "slug": "inspiro",
     "version": "2.3.0",
     "directory": "https://wordpress.org/themes/inspiro/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1a1a1a",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#6c6c77"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Flat lay photography of coffee latte, ground coffee, and coffee beans",
+      "credit": {
+        "name": "Nathan Dumlao",
+        "profile": "https://unsplash.com/@nate_dumlao",
+        "source": "https://unsplash.com/photos/flat-lay-photography-of-coffee-latte-ground-coffee-and-coffee-beans-Y3AqmbmtLQI"
+      }
+    },
+    "home": "## Inspiro\n\nInspiro is a video production studio crafting cinematic brand films, campaign content, and documentary storytelling for brands that want to be felt, not just seen."
   }
 }

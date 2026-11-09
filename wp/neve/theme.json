@@ -551,5 +551,23 @@
     "slug": "neve",
     "version": "4.2.19",
     "directory": "https://wordpress.org/themes/neve/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#5b6472",
+        "text": "#5b6472",
+        "background": "#ffffff",
+        "muted": "#5b6472"
+      },
+      "font": "humanist",
+      "headingFont": "sans",
+      "width": "710px",
+      "fontSize": "18px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

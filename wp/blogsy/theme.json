@@ -369,5 +369,22 @@
     "slug": "blogsy",
     "version": "1.0.21",
     "directory": "https://wordpress.org/themes/blogsy/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#282424",
+        "text": "#282424",
+        "background": "#faf8ff",
+        "muted": "#282424"
+      },
+      "font": "sans",
+      "width": "730px",
+      "fontSize": "15px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

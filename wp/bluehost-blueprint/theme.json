@@ -218,5 +218,22 @@
     "slug": "bluehost-blueprint",
     "version": "1.0.2",
     "directory": "https://wordpress.org/themes/bluehost-blueprint/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#000000",
+        "text": "#323232",
+        "background": "#ffffff",
+        "muted": "#323232"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

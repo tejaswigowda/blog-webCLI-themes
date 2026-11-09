@@ -179,5 +179,22 @@
     "slug": "newsup",
     "version": "5.6.8",
     "directory": "https://wordpress.org/themes/newsup/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#222222",
+        "text": "#222222",
+        "background": "#eeeeee",
+        "muted": "#222222"
+      },
+      "font": "sans",
+      "width": "730px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

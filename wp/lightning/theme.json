@@ -21,6 +21,7 @@
     "_g3/inc/vk-mobile-nav/package/images/vk-menu-btn-black.svg",
     "_g3/inc/vk-mobile-nav/package/images/vk-menu-close-black.svg",
     "_g3/inc/vk-mobile-nav/package/images/vk-menu-close-white.svg",
+    "kit/hero.jpg",
     "vendor/vektor-inc/font-awesome-versions/src/font-awesome/webfonts/fa-brands-400.woff2",
     "vendor/vektor-inc/font-awesome-versions/src/font-awesome/webfonts/fa-regular-400.woff2",
     "vendor/vektor-inc/font-awesome-versions/src/font-awesome/webfonts/fa-solid-900.woff2",
@@ -547,5 +548,31 @@
     "slug": "lightning",
     "version": "15.42.0",
     "directory": "https://wordpress.org/themes/lightning/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#666666",
+        "text": "#333333",
+        "background": "#ffffff",
+        "muted": "#666666"
+      },
+      "font": "sans",
+      "width": "510px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Building beside body of water during night time",
+      "credit": {
+        "name": "Jonathan Roger",
+        "profile": "https://unsplash.com/@jonathanroger",
+        "source": "https://unsplash.com/photos/building-beside-body-of-water-during-night-time-LY1eyQMFeyo"
+      }
+    },
+    "home": "## Lightning\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }
 }

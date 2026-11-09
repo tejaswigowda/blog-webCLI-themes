@@ -792,5 +792,22 @@
     "slug": "news-magazine-x",
     "version": "1.2.59",
     "directory": "https://wordpress.org/themes/news-magazine-x/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#67737e",
+        "text": "#67737e",
+        "background": "#ffffff",
+        "muted": "#67737e"
+      },
+      "font": "sans",
+      "width": "720px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

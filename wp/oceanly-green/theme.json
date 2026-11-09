@@ -42,5 +42,23 @@
     "slug": "oceanly-green",
     "version": "1.0.8",
     "directory": "https://wordpress.org/themes/oceanly-green/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#3a3a3a",
+        "text": "#3a3a3a",
+        "background": "#fafafa",
+        "muted": "#3a3a3a"
+      },
+      "font": "sans",
+      "headingFont": "serif",
+      "width": "510px",
+      "fontSize": "15px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

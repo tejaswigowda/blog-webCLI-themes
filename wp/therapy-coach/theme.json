@@ -212,5 +212,35 @@
     "slug": "therapy-coach",
     "version": "1.0.0",
     "directory": "https://wordpress.org/themes/therapy-coach/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#221812",
+        "text": "#221812",
+        "background": "#f9f5f0",
+        "muted": "#221812"
+      },
+      "font": "sans",
+      "headingFont": "serif",
+      "width": "760px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Modern building with sharp geometric angles against a clear sky",
+      "credit": {
+        "name": "Ryunosuke Kikuno",
+        "profile": "https://unsplash.com/@ryunosuke_kikuno",
+        "source": "https://unsplash.com/photos/modern-building-with-sharp-geometric-angles-against-a-clear-sky-ILFfFsqmt2A"
+      }
+    },
+    "home": "## Transform your life with personalized therapy & coaching.\n\nProfessional support, guided growth, and meaningful change through evidence-based therapy and coaching — delivered through a calm, modern platform built for the way you actually live."
   }
 }

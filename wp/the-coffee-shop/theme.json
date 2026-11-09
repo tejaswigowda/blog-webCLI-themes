@@ -283,5 +283,34 @@
     "slug": "the-coffee-shop",
     "version": "1.1",
     "directory": "https://wordpress.org/themes/the-coffee-shop/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1a1a1a",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#8d8d8d"
+      },
+      "font": "sans",
+      "width": "680px",
+      "fontSize": "17px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Building beside body of water during night time",
+      "credit": {
+        "name": "Jonathan Roger",
+        "profile": "https://unsplash.com/@jonathanroger",
+        "source": "https://unsplash.com/photos/building-beside-body-of-water-during-night-time-LY1eyQMFeyo"
+      }
+    },
+    "home": "## Great Coffee, Every Day\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut rutrum ex, eu aliquet velit. Morbi dictum, sem quis pharetra commodo, nisl purus semper elit, quis volutpat tortor justo ac est."
   }
 }

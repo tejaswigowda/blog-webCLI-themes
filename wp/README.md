@@ -104,3 +104,10 @@ split-licensing language (`onepress`, `rife-free`). `twentytwentyone` was alread
 | [`vertice`](vertice) | `wordpress-classic` | GPL-3.0-only | Vertice 1.0.106 |
 | [`webrand-lite`](webrand-lite) | `wordpress-classic` | GPL-3.0-or-later | Webrand Lite 1.0.1 |
 | [`zakra`](zakra) | `wordpress-classic` | GPL-3.0-or-later | Zakra 4.3.3 |
+
+## Kits
+
+Each theme has a **bootstrap kit** (`kit` in its `theme.json`, built by `node cli/wp-kit.mjs` in blog-webCLI from the theme's demo page):
+the settings that make a blog look as the theme was designed, a short home page, and, where the demo has a header picture, a free
+[Unsplash](https://unsplash.com) photograph (`kit/hero.jpg`) with its credit. Photographers are listed in
+[`../kit-images/credits.json`](../kit-images/credits.json).

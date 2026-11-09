@@ -17,7 +17,8 @@
     "images/dotted-line.png",
     "images/headers/circle.png",
     "images/search-icon-2x.png",
-    "images/search-icon.png"
+    "images/search-icon.png",
+    "kit/hero.jpg"
   ],
   "skeleton": "skeleton.html",
   "body_class": "single-author no-sidebar",
@@ -160,5 +161,32 @@
     "slug": "twentythirteen",
     "version": "4.7",
     "directory": "https://wordpress.org/themes/twentythirteen/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#141412",
+        "text": "#141412",
+        "background": "#ffffff",
+        "muted": "#141412"
+      },
+      "font": "humanist",
+      "headingFont": "serif",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Landscape photography of lake and mountain",
+      "credit": {
+        "name": "Tobias Keller",
+        "profile": "https://unsplash.com/@tokeller",
+        "source": "https://unsplash.com/photos/landscape-photography-of-lake-and-mountain-73F4pKoUkM0"
+      }
+    },
+    "home": "## Twenty Thirteen\n\nThe purpose of this HTML is to help determine what default settings are with CSS and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site."
   }
 }

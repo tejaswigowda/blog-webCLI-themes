@@ -851,5 +851,22 @@
     "slug": "botiga",
     "version": "2.5.1",
     "directory": "https://wordpress.org/themes/botiga/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#212121",
+        "text": "#212121",
+        "background": "#ffffff",
+        "muted": "#666666"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

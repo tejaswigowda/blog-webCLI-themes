@@ -370,5 +370,34 @@
     "slug": "basin",
     "version": "1.0.6",
     "directory": "https://wordpress.org/themes/basin/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#0000ee",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#121214"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Pink roses in close up photography",
+      "credit": {
+        "name": "Rikonavt",
+        "profile": "https://unsplash.com/@rikonavt",
+        "source": "https://unsplash.com/photos/pink-roses-in-close-up-photography-oEWdQsbRVZk"
+      }
+    },
+    "home": "## Basin\n\nBasin is an innovative, easily customizable, multi-purpose theme, focused on empowering users to build astonishing WordPress websites."
   }
 }

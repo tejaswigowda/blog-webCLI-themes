@@ -215,5 +215,33 @@
     "slug": "savara-lite",
     "version": "1.0.1",
     "directory": "https://wordpress.org/themes/savara-lite/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1a1a1a",
+        "text": "#1a1a1a",
+        "background": "#f3fff5",
+        "muted": "#878d88"
+      },
+      "font": "sans",
+      "width": "760px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Brown dirt road between green grass and trees during daytime",
+      "credit": {
+        "name": "Maksim Shutov",
+        "profile": "https://unsplash.com/@maksimshutov",
+        "source": "https://unsplash.com/photos/brown-dirt-road-between-green-grass-and-trees-during-daytime-H8vhhepiiaU"
+      }
+    },
+    "home": "## Curated luxury stays\n\nA curated sanctuary where oceanfront living, design, and hospitality come together to create an unforgettable experience."
   }
 }

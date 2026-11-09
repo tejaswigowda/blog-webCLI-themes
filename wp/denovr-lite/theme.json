@@ -214,5 +214,34 @@
     "slug": "denovr-lite",
     "version": "1.0.4",
     "directory": "https://wordpress.org/themes/denovr-lite/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#eceef1",
+        "text": "#eceef1",
+        "background": "#121212",
+        "muted": "#7f8082"
+      },
+      "font": "sans",
+      "width": "720px",
+      "fontSize": "15px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Pink roses in close up photography",
+      "credit": {
+        "name": "Rikonavt",
+        "profile": "https://unsplash.com/@rikonavt",
+        "source": "https://unsplash.com/photos/pink-roses-in-close-up-photography-oEWdQsbRVZk"
+      }
+    },
+    "home": "## Denovr Lite\n\nWe help our client to recreate their room into functional space not only aesthetic but also comfortable."
   }
 }

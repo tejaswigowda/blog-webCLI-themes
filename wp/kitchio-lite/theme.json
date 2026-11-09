@@ -213,5 +213,34 @@
     "slug": "kitchio-lite",
     "version": "1.0.3",
     "directory": "https://wordpress.org/themes/kitchio-lite/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#69674c",
+        "text": "#191105",
+        "background": "#ffffff",
+        "muted": "#191105"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Building beside body of water during night time",
+      "credit": {
+        "name": "Jonathan Roger",
+        "profile": "https://unsplash.com/@jonathanroger",
+        "source": "https://unsplash.com/photos/building-beside-body-of-water-during-night-time-LY1eyQMFeyo"
+      }
+    },
+    "home": "## Kitchio Lite\n\nElevate your home with thoughtfully designed kitchen cabinetry crafted for style, comfort, and everyday function made beautifully."
   }
 }

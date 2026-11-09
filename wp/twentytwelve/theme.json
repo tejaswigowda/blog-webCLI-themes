@@ -48,7 +48,8 @@
     "fonts/open-sans/open-sans-vietnamese-400-italic.woff2",
     "fonts/open-sans/open-sans-vietnamese-400-normal.woff2",
     "fonts/open-sans/open-sans-vietnamese-700-italic.woff2",
-    "fonts/open-sans/open-sans-vietnamese-700-normal.woff2"
+    "fonts/open-sans/open-sans-vietnamese-700-normal.woff2",
+    "kit/hero.jpg"
   ],
   "skeleton": "skeleton.html",
   "body_class": "full-width custom-font-enabled single-author no-sidebar",
@@ -107,5 +108,30 @@
     "slug": "twentytwelve",
     "version": "4.9",
     "directory": "https://wordpress.org/themes/twentytwelve/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#21759b",
+        "text": "#757575",
+        "background": "#ffffff",
+        "muted": "#757575"
+      },
+      "font": "sans",
+      "width": "710px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Flat lay photography of coffee latte, ground coffee, and coffee beans",
+      "credit": {
+        "name": "Nathan Dumlao",
+        "profile": "https://unsplash.com/@nate_dumlao",
+        "source": "https://unsplash.com/photos/flat-lay-photography-of-coffee-latte-ground-coffee-and-coffee-beans-Y3AqmbmtLQI"
+      }
+    },
+    "home": "## Twenty Twelve\n\nThe purpose of this HTML is to help determine what default settings are with CSS and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site."
   }
 }

@@ -452,5 +452,22 @@
     "slug": "customify",
     "version": "0.4.27",
     "directory": "https://wordpress.org/themes/customify/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#2b2b2b",
+        "text": "#686868",
+        "background": "#ffffff",
+        "muted": "#686868"
+      },
+      "font": "sans",
+      "width": "720px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

@@ -16,7 +16,8 @@
     "assets/shared/fonts/customizr/customizr.svg",
     "assets/shared/fonts/customizr/customizr.ttf",
     "assets/shared/fonts/customizr/customizr.woff",
-    "assets/shared/fonts/customizr/customizr.woff2"
+    "assets/shared/fonts/customizr/customizr.woff2",
+    "kit/hero.jpg"
   ],
   "skeleton": "skeleton.html",
   "body_class": "czr-link-hover-underline header-skin-light footer-skin-dark tc-center-images czr-full-layout customizr-4-4-24 czr-post-list-context no-sidebar",
@@ -744,5 +745,30 @@
     "slug": "customizr",
     "version": "4.4.24",
     "directory": "https://wordpress.org/themes/customizr/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#313131",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#8d8d8d"
+      },
+      "font": "humanist",
+      "width": "540px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Brown dirt road between green grass and trees during daytime",
+      "credit": {
+        "name": "Maksim Shutov",
+        "profile": "https://unsplash.com/@maksimshutov",
+        "source": "https://unsplash.com/photos/brown-dirt-road-between-green-grass-and-trees-during-daytime-H8vhhepiiaU"
+      }
+    },
+    "home": "## Customizr\n\nMore of these posts need tags."
   }
 }

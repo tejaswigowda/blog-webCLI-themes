@@ -158,5 +158,34 @@
     "slug": "hello-biz",
     "version": "1.2.2",
     "directory": "https://wordpress.org/themes/hello-biz/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1a1a1a",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#8d8d8d"
+      },
+      "font": "sans",
+      "width": "500px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Gray and black laptop computer on white table",
+      "credit": {
+        "name": "Alexa Williams",
+        "profile": "https://unsplash.com/@glamorousplanning",
+        "source": "https://unsplash.com/photos/gray-and-black-laptop-computer-on-white-table-RaYjMmmaSCA"
+      }
+    },
+    "home": "## Your Digital Presence IsAbout To Take Off\n\nLorem ipsum dolor sit amet, consectetr adipiscing elit. Proin rutrum euismod dolor,ultricies aliquam nulla off maxim accumsan."
   }
 }

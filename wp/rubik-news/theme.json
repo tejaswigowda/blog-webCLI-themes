@@ -97,5 +97,22 @@
     "slug": "rubik-news",
     "version": "1.0",
     "directory": "https://wordpress.org/themes/rubik-news/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#000000",
+        "text": "#555555",
+        "background": "#ffffff",
+        "muted": "#aaaaaa"
+      },
+      "font": "sans",
+      "width": "720px",
+      "fontSize": "14px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

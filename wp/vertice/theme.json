@@ -386,5 +386,34 @@
     "slug": "vertice",
     "version": "1.0.106",
     "directory": "https://wordpress.org/themes/vertice/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#0000ee",
+        "text": "#1a1a1a",
+        "background": "#ffffff",
+        "muted": "#121214"
+      },
+      "font": "sans",
+      "width": "760px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "cards"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Brown dirt road between green grass and trees during daytime",
+      "credit": {
+        "name": "Maksim Shutov",
+        "profile": "https://unsplash.com/@maksimshutov",
+        "source": "https://unsplash.com/photos/brown-dirt-road-between-green-grass-and-trees-during-daytime-H8vhhepiiaU"
+      }
+    },
+    "home": "## Vertice\n\nVertice is an innovative, easily customizable, multi-purpose theme, focused on empowering users to build astonishing WordPress websites."
   }
 }

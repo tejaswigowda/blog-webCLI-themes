@@ -331,5 +331,22 @@
     "slug": "sinatra",
     "version": "1.5.0",
     "directory": "https://wordpress.org/themes/sinatra/"
+  },
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#23282d",
+        "text": "#30373e",
+        "background": "#ffffff",
+        "muted": "#30373e"
+      },
+      "font": "sans",
+      "width": "700px",
+      "fontSize": "15px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "home": "Welcome. The latest posts are below."
   }
 }

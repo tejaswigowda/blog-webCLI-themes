@@ -292,5 +292,34 @@
     "slug": "raft",
     "version": "1.1.17",
     "directory": "https://wordpress.org/themes/raft/"
+  },
+  "assets": [
+    "kit/hero.jpg"
+  ],
+  "kit": {
+    "customize": {
+      "colors": {
+        "accent": "#1d1f25",
+        "text": "#1d1f25",
+        "background": "#ebe8e6",
+        "muted": "#1d1f25"
+      },
+      "font": "sans",
+      "width": "710px",
+      "fontSize": "16px",
+      "list": {
+        "layout": "list"
+      }
+    },
+    "hero": {
+      "image": "kit/hero.jpg",
+      "alt": "Pink roses in close up photography",
+      "credit": {
+        "name": "Rikonavt",
+        "profile": "https://unsplash.com/@rikonavt",
+        "source": "https://unsplash.com/photos/pink-roses-in-close-up-photography-oEWdQsbRVZk"
+      }
+    },
+    "home": "## Raft\n\nA placeholder description that you can replace with your own content."
   }
 }
